@@ -18,7 +18,7 @@ body {
 
 header {
   padding: 0 24px 0;
-  background-color: #ffffff;
+  background-color: #fff;
   width: 375px;
 }
 
@@ -53,7 +53,7 @@ header {
 }
 
 .logo {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -86,12 +86,12 @@ h4 {
   left: 12px;
   right: 78px;
   top: calc(50% - 24px / 2);
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  color: #000000;
+  color: #000;
 }
 
 .h4-connect {
@@ -122,7 +122,7 @@ h4 {
   flex-direction: column;
   gap: 12px;
   height: auto;
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   margin: 6rem auto 0;
@@ -131,7 +131,7 @@ h4 {
 h2 {
   text-align: left;
   width: 290px;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -152,13 +152,14 @@ h2 {
   color: #344563;
 }
 
-.icon-tag:not(:first-child) {
+/* .icon-tag:not(:first-child) {
   margin-left: 12px;
-}
+} */
 
 button:not(:first-child) {
   margin-left: 8px;
 }
+
 .langbutton button {
   background: #ebebff;
   border-radius: 8px;
@@ -176,12 +177,14 @@ button:not(:first-child) {
 .bend {
   padding: auto 10px;
 }
+
 .bend-yr {
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
   color: #7a869a;
 }
+
 .works {
   padding: 16px;
 }
@@ -223,18 +226,9 @@ h1 {
   color: #172b4d;
 }
 
-.logo {
-  width: 76px;
-  height: 20px;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 20px;
-}
-
 .btn {
-  width: 115px;
+  font-family: "Poppins", sans-serif;
+  width: 120px;
   height: 48px;
   font-weight: 500;
   font-size: 17px;
@@ -243,8 +237,7 @@ h1 {
   border: 1px solid #dfe1e6;
   text-align: center;
   letter-spacing: 0.03em;
-  /* margin: 40px 0; */
-  background: #ffffff;
+  background: #fff;
   margin: 12px 0;
   color: #396df2;
 }
@@ -256,7 +249,7 @@ h1 {
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 10px;
   display: flex;
@@ -265,6 +258,7 @@ h1 {
   letter-spacing: 0.03em;
   color: #396df2;
 }
+
 .div {
   margin-left: 0;
 }
@@ -276,13 +270,12 @@ h1 {
   width: 100%;
   padding: 16px;
   background: #fff;
-
   position: absolute;
 }
 
-.item-center {
+/* .item-center {
   align-items: center;
-}
+} */
 
 .aboutme {
   font-weight: 700;
@@ -299,6 +292,7 @@ h1 {
   padding: 18px;
   background-color: #fff;
 }
+
 .tag-space {
   padding-left: 12px;
 }
@@ -316,7 +310,7 @@ h1 {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  color: #000000;
+  color: #000;
   padding-right: 2rem;
 }
 

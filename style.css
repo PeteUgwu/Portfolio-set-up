@@ -64,11 +64,11 @@ header {
 p {
   font-family: "Poppins", sans-serif;
   font-style: normal;
-  font-size: 16px;
-  font-weight: 400;
+  font-size: 14px;
+  font-weight: 300;
   text-align: left;
   line-height: 24px;
-  color: #344563;
+  color: #7485a1;
   width: 100%;
 }
 
@@ -151,10 +151,6 @@ h2 {
   line-height: 16px;
   color: #344563;
 }
-
-/* .icon-tag:not(:first-child) {
-  margin-left: 12px;
-} */
 
 button:not(:first-child) {
   margin-left: 8px;
@@ -272,10 +268,6 @@ h1 {
   background: #fff;
   position: absolute;
 }
-
-/* .item-center {
-  align-items: center;
-} */
 
 .aboutme {
   font-weight: 700;

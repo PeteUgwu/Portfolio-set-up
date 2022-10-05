@@ -1,6 +1,4 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap"); */
-
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 * {
   box-sizing: border-box;
@@ -25,7 +23,7 @@ header {
 .main {
   padding: 24px 24px 1px;
   border-bottom-left-radius: 80px;
-  margin-bottom: 0;
+  margin-bottom: 2rem;
   background-image: url("/images/headerbg.png");
   background-size: cover;
   background-position: 100% 10%;
@@ -40,7 +38,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 30px;
+  padding-top: 4rem;
   width: 100%;
 }
 
@@ -125,15 +123,15 @@ h4 {
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
-  margin: 6rem auto 0;
+  margin: 5.5rem auto 0;
 }
 
 h2 {
   text-align: left;
-  width: 290px;
+  width: 250px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 900;
   font-size: 32px;
   line-height: 44px;
   color: #172b4d;
@@ -216,7 +214,7 @@ h1 {
   font-size: 46px;
   font-weight: 700;
   line-height: 52px;
-  width: 327px;
+  width: 300px;
   padding-top: 50px;
   margin-bottom: 0;
   color: #172b4d;
@@ -266,7 +264,6 @@ h1 {
   width: 100%;
   padding: 16px;
   background: #fff;
-  position: absolute;
 }
 
 .aboutme {
@@ -283,6 +280,7 @@ h1 {
 .base-about-myself {
   padding: 18px;
   background-color: #fff;
+  height: 600px;
 }
 
 .tag-space {
@@ -327,4 +325,138 @@ hr {
   display: flex;
   align-items: center;
   color: #253858;
+}
+
+#contact-me {
+  display: flex;
+  justify-content: center;
+  background-image: url(./images/Frame.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 779px;
+  width: 100%;
+  margin-top: -3.5rem;
+}
+
+.contact-intro {
+  margin: 7rem 1.5rem 0;
+}
+
+.contact-intro h2,
+.contact-intro p {
+  text-align: center;
+}
+
+.contact-intro h2 {
+  color: #fff;
+}
+
+.contact-intro p {
+  margin-bottom: 0;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ebebff;
+}
+
+.contact-me-text {
+  justify-content: center;
+  margin-left: 2rem;
+}
+
+.form-container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  margin-top: 17rem;
+}
+
+.form-area {
+  margin: 0 1.5rem;
+}
+
+.name-area,
+.email-area,
+.text-area {
+  width: 20.4rem;
+  background-color: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  padding: 15px 0 15px 16px;
+}
+
+.name-area,
+.email-area {
+  height: 3rem;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: #172b4d;
+}
+
+.name-area {
+  margin-top: 5.5rem;
+}
+
+.email-area {
+  margin-top: 1.25rem;
+}
+
+.text-area {
+  margin-top: 1.125rem;
+  height: 10.6rem;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #b3bac5;
+}
+
+.submit-btn {
+  width: 9.4rem;
+  height: 3.5rem;
+  margin: 1.5rem auto 0 0;
+  padding: 0.75rem 1rem;
+  background-color: #fff;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+  outline: none;
+  border: none;
+}
+
+button .submit-btn {
+  margin-left: 0;
+}
+
+.submit-btn:enabled {
+  background-color: #fff;
+  color: #6070ff;
+}
+
+.submit-btn:disabled {
+  background-color: #c1c7d0;
+  color: gray;
+}
+
+.submit-btn:hover {
+  background-color: #6070ff;
+  color: #fff;
+}
+
+.return-back {
+  width: 134px;
+  height: 5px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  margin-top: 770px;
 }

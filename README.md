@@ -2,7 +2,7 @@
 
 # microverse-portfolio
 
-> This is a project to display My portfolio-mobile-version
+> This is a project to display the contact me section of my portfolio-mobile-version
 
 ## Built With
 

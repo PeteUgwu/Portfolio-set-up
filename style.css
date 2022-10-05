@@ -280,6 +280,7 @@ h1 {
 .base-about-myself {
   padding: 18px;
   background-color: #fff;
+  height: 600px;
 }
 
 .tag-space {
@@ -334,7 +335,7 @@ hr {
   background-size: cover;
   height: 779px;
   width: 100%;
-  margin-top: 7.5rem;
+  margin-top: -3.5rem;
 }
 
 .contact-intro {
@@ -415,8 +416,6 @@ hr {
   color: #b3bac5;
 }
 
-
-
 .submit-btn {
   width: 9.4rem;
   height: 3.5rem;
@@ -429,6 +428,8 @@ hr {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #6070ff;
+  outline: none;
+  border: none;
 }
 
 button .submit-btn {
@@ -448,4 +449,12 @@ button .submit-btn {
 .submit-btn:hover {
   background-color: #6070ff;
   color: #fff;
+}
+.return-back {
+  width: 134px;
+  height: 5px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  margin-top: 770px;
 }

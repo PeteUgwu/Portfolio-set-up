@@ -253,7 +253,7 @@ h1 {
 }
 
 .btn-big {
-  width: 140px;
+  width: 9.5rem;
   height: 48px;
   font-style: normal;
   font-weight: 500;
@@ -550,16 +550,6 @@ button .submit-btn {
     padding: 24px 22px 24px 48px;
   }
 
-  .btn-3 {
-    position: absolute;
-    width: 124px;
-    height: 48px;
-    background: #4053fc;
-    box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
-    border-radius: 8px;
-    color: #fff;
-  }
-
   .nav-container .fa-bars {
     display: none;
   }
@@ -589,11 +579,12 @@ button .submit-btn {
 
   .main {
     margin-bottom: 8rem;
-    background-image: url("/images/imagebg.png");
+    padding-top: 15rem;
+    background-image: url("./images/imagebg.png");
     background-size: cover;
     background-position: 100%;
     background-repeat: no-repeat;
-    height: 650px;
+    height: 916px;
     width: 100%;
     background-color: #fff;
   }
@@ -618,6 +609,27 @@ button .submit-btn {
 
   .langbutton button:not(:first-child) {
     margin-left: 8px;
+  }
+
+  .btn:enabled {
+    background-color: #fff;
+    color: #6070ff;
+  }
+
+  .btn:disabled {
+    background-color: #c1c7d0;
+    color: gray;
+  }
+
+  .btn:hover {
+    background-color: #4053fc;
+    box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+    border-radius: 8px;
+    color: #fff;
+  }
+
+  .btn-big {
+    width: 9.5rem;
   }
 
   .main div {
@@ -668,7 +680,7 @@ button .submit-btn {
     position: relative;
     display: flex;
     justify-content: center;
-    background-image: url(./images/imagefooter.png);
+    background-image: url("./images/imagefooter.png");
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: bottom;

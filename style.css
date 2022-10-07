@@ -24,6 +24,7 @@ header {
 .menu-bar {
   display: none;
 }
+
 .main {
   padding: 24px 24px 1px;
   border-bottom-left-radius: 80px;
@@ -480,6 +481,7 @@ button .submit-btn {
     height: auto;
     padding: 24px 23px 24px 24px;
   }
+
   .image img {
     width: 100%;
     height: 448px;
@@ -502,6 +504,7 @@ button .submit-btn {
     width: 100%;
     height: 448px;
   }
+
   .card-2 {
     width: 50%;
     height: auto;
@@ -532,9 +535,11 @@ button .submit-btn {
   .item-tag {
     margin-bottom: 32px;
   }
+
   .icon-tag:not(:first-child) {
     margin-left: 12px;
   }
+
   .langbutton {
     margin-bottom: 30px;
   }
@@ -550,7 +555,7 @@ button .submit-btn {
     width: 124px;
     height: 48px;
     background: #4053fc;
-    box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
+    box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
     border-radius: 8px;
     color: #fff;
   }
@@ -564,7 +569,6 @@ button .submit-btn {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-
     padding-left: 0%;
     margin-right: 9.688rem;
   }
@@ -585,7 +589,6 @@ button .submit-btn {
 
   .main {
     margin-bottom: 8rem;
-    height: 916px;
     background-image: url("/images/imagebg.png");
     background-size: cover;
     background-position: 100%;
@@ -643,12 +646,11 @@ button .submit-btn {
   .h4-connect {
     margin-bottom: 14px;
   }
+
   #aboutme {
     display: flex;
-
     align-items: center;
     justify-content: space-between;
-
     height: 924px;
     padding: 142px;
   }
@@ -682,7 +684,7 @@ button .submit-btn {
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
-    color: #ffffff;
+    color: #fff;
     margin-left: 28.5%;
     letter-spacing: 2px;
   }
@@ -690,6 +692,7 @@ button .submit-btn {
   .contact-intro h2 {
     color: #fff;
   }
+
   .contact-intro h2,
   .contact-intro p {
     text-align: center;
@@ -709,17 +712,19 @@ button .submit-btn {
   .email-area {
     height: 48px;
     width: 447px;
-    background: #ffffff;
+    background: #fff;
     border: 1px solid #cfd8dc;
     border-radius: 2px;
   }
+
   .text-area {
     width: 447px;
     height: 170px;
-    background: #ffffff;
+    background: #fff;
     border: 1px solid #cfd8dc;
     border-radius: 2px;
   }
+
   .aboutme {
     font-weight: 700;
     font-size: 40px;
@@ -749,6 +754,7 @@ button .submit-btn {
     margin-left: 1rem;
     width: 100%;
   }
+
   .tag-space {
     margin: 26px 0;
   }
@@ -776,6 +782,7 @@ button .submit-btn {
   .frame-works li {
     margin: 0.5rem 0 0.5rem 1rem;
   }
+
   .base-about-myself .flex-icon {
     display: flex;
     justify-content: space-between;

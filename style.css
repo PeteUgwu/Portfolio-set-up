@@ -320,6 +320,21 @@ h1 {
   padding-right: 2rem;
 }
 
+.base-about-myself .flex-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 2rem;
+}
+
+.contact-about-bg {
+  background-color: #fff;
+}
+
+.flex-icon .icon {
+  transform: rotate(90deg);
+}
+
 hr {
   margin: auto 1px;
   height: 1px;
@@ -378,7 +393,7 @@ hr {
 
 .contact-me-text {
   justify-content: center;
-  margin-left: 2rem;
+  margin-left: 6rem;
 }
 
 .form-container {
@@ -571,10 +586,6 @@ button .submit-btn {
     line-height: 20px;
     color: #344563;
     margin-right: 32px;
-  }
-
-  .logo {
-    margin-left: 9.688rem;
   }
 
   .main {
@@ -812,11 +823,35 @@ button .submit-btn {
   }
 
   .image:hover {
-    transform: scale(1.3);
+    transform: scale(1.2);
     z-index: 2;
   }
+
   .image-2:hover {
-    transform: scale(1.5);
+    transform: scale(1.2);
     z-index: 2;
+  }
+
+  input:hover::placeholder {
+    transform: translate(10px);
+  }
+
+  textarea:hover::placeholder {
+    transform: translate(10px);
+  }
+
+  .logo {
+    margin-left: 9.688rem;
+    animation: spin 2s;
+  }
+
+  @keyframes spin {
+    0.5% {
+      -webkit-transform: rotate(50deg);
+    }
+
+    100% {
+      -webkit-transform: rotate(360deg);
+    }
   }
 }

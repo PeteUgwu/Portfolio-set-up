@@ -19,6 +19,10 @@ To get a local copy up and running follow these simple example steps.
 Code Editor(VS Studio Code)
 Web Browser (Google Chrome recommended)
 
+## Live Demo
+
+[Live Demo Link](https://peteugwu.github.io/Portfolio-set-up/)
+
 How to Run
 To run the project do the following:
 

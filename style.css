@@ -15,17 +15,11 @@ body {
   overflow-x: clip !important;
 }
 
-header {
-  padding: 0 24px 0;
-  background-color: #fff;
-  width: 100%;
-}
-
 .menu-bar {
   display: none;
 }
 
-.main {
+.landing {
   padding: 24px 24px 1px;
   border-bottom-left-radius: 80px;
   margin-bottom: 2rem;
@@ -36,7 +30,6 @@ header {
   height: 650px;
   width: 100%;
   background-color: #fff;
-  margin-top: -2px;
 }
 
 .toolbar-container {
@@ -83,6 +76,28 @@ p {
   margin-top: 0;
 }
 
+h1 {
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 52px;
+  width: 300px;
+  padding-top: 50px;
+  margin-bottom: 0;
+  color: #172b4d;
+}
+
+h2 {
+  text-align: left;
+  width: 250px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  margin: 0;
+}
+
 h4 {
   left: 12px;
   right: 78px;
@@ -127,6 +142,10 @@ h4 {
   height: 100%;
 }
 
+.flex {
+  display: flex;
+}
+
 .card-works,
 .card-works1,
 .card-works2,
@@ -142,18 +161,6 @@ h4 {
   margin: 5.5rem auto 0;
 }
 
-h2 {
-  text-align: left;
-  width: 250px;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 32px;
-  line-height: 44px;
-  color: #172b4d;
-  margin: 0;
-}
-
 .item-tag {
   margin: 0 3rem 0 0;
 }
@@ -164,10 +171,6 @@ h2 {
   font-size: 13px;
   line-height: 16px;
   color: #344563;
-}
-
-button:not(:first-child) {
-  margin-left: 8px;
 }
 
 .langbutton button {
@@ -181,7 +184,7 @@ button:not(:first-child) {
   letter-spacing: 0.03em;
   border: none;
   font-weight: 500;
-  padding: 0 0.5rem;
+  padding: 0 0.2rem;
 }
 
 .bend {
@@ -195,12 +198,12 @@ button:not(:first-child) {
   color: #7a869a;
 }
 
-.works {
-  padding: 16px;
+button:not(:first-child) {
+  margin-left: 8px;
 }
 
-.flex {
-  display: flex;
+.works {
+  padding: 16px;
 }
 
 .item-center {
@@ -209,7 +212,7 @@ button:not(:first-child) {
 }
 
 .icon-tag:not(:first-child) {
-  margin: 0 0 0 16px;
+  margin: 0 0 0 10px;
 }
 
 ul,
@@ -224,16 +227,6 @@ a {
   font-size: 18px;
   text-decoration: none;
   color: #6070ff;
-}
-
-h1 {
-  font-size: 46px;
-  font-weight: 700;
-  line-height: 52px;
-  width: 300px;
-  padding-top: 50px;
-  margin-bottom: 0;
-  color: #172b4d;
 }
 
 .btn {
@@ -276,27 +269,24 @@ h1 {
 #aboutme {
   border-top-right-radius: 80px;
   margin-top: 8rem;
-  height: auto;
   width: 100%;
-  padding: 16px;
   background: #fff;
 }
 
 .aboutme {
   font-weight: 700;
   width: 250px;
-  height: 101px;
   font-size: 40px;
   line-height: 52px;
   align-items: center;
   color: #172b4d;
   margin-bottom: 0;
+  padding-top: 6rem;
+  border-top-right-radius: 60px;
 }
 
 .base-about-myself {
   padding: 0 18px;
-  background-color: #fff;
-  height: 600px;
 }
 
 .tag-space {
@@ -320,6 +310,10 @@ h1 {
   padding-right: 2rem;
 }
 
+.me {
+  padding: 0 18px;
+}
+
 .base-about-myself .flex-icon {
   display: flex;
   justify-content: space-between;
@@ -327,18 +321,19 @@ h1 {
   margin-right: 2rem;
 }
 
-.contact-about-bg {
-  background-color: #fff;
-}
-
-.flex-icon .icon {
-  transform: rotate(90deg);
-}
-
 hr {
   margin: auto 1px;
   height: 1px;
   background: #dfe1e6;
+}
+
+.contact-about-bg {
+  background-color: #fff;
+  border-top-right-radius: 80px;
+}
+
+.flex-icon .icon {
+  transform: rotate(90deg);
 }
 
 .bg-languages {
@@ -360,16 +355,15 @@ hr {
 
 #contact-me {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
   background-image: url(./images/Frame.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 779px;
   width: 100%;
-}
-
-.contact-intro {
-  margin: 7rem 1.5rem 0;
+  margin-top: 6rem;
+  padding: 6rem 0 4rem 0;
 }
 
 .contact-intro h2,
@@ -379,6 +373,7 @@ hr {
 
 .contact-intro h2 {
   color: #fff;
+  width: 100%;
 }
 
 .contact-intro p {
@@ -391,20 +386,14 @@ hr {
   color: #ebebff;
 }
 
-.contact-me-text {
-  justify-content: center;
-  margin-left: 6rem;
-}
-
 .form-container {
-  position: absolute;
   display: flex;
   flex-direction: column;
-  margin-top: 17rem;
 }
 
 .form-area {
   margin: 0 1.5rem;
+  width: 100%;
 }
 
 .name-area,
@@ -483,6 +472,90 @@ button .submit-btn {
 }
 
 @media screen and (min-width: 768px) {
+  .landing {
+    background-image: url("./images/imagebg.png");
+    background-size: contain;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    height: auto;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 8rem;
+    border-bottom-left-radius: 80px;
+  }
+
+  .nav-container .fa-bars {
+    display: none;
+  }
+
+  .menu-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0%;
+    margin-right: 9.688rem;
+  }
+
+  .nav {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+    margin-right: 32px;
+  }
+
+  .main {
+    padding: 260px 10px 255px 205px;
+    text-align: left;
+    width: 100%;
+  }
+
+  .main p {
+    width: 90%;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #344563;
+    margin: 12px 0;
+  }
+
+  .h4-connect {
+    margin-bottom: 14px;
+  }
+
+  h1 {
+    width: 100%;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: 0.37px;
+    color: #091e42;
+  }
+
+  h2 {
+    width: 496px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091e42;
+    margin-bottom: 20px;
+  }
+
+  .p {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+    margin-bottom: 24px;
+  }
+
   .works {
     position: relative;
     display: flex;
@@ -526,27 +599,6 @@ button .submit-btn {
     padding-top: 48px;
   }
 
-  h2 {
-    width: 496px;
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: bolder;
-    font-size: 40px;
-    line-height: 52px;
-    color: #091e42;
-    margin-bottom: 20px;
-  }
-
-  .p {
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #344563;
-    margin-bottom: 24px;
-  }
-
   .item-tag {
     margin-bottom: 32px;
   }
@@ -563,41 +615,6 @@ button .submit-btn {
     display: flex;
     flex-direction: row-reverse;
     padding: 24px 22px 24px 48px;
-  }
-
-  .nav-container .fa-bars {
-    display: none;
-  }
-
-  .menu-bar {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding-left: 0%;
-    margin-right: 9.688rem;
-  }
-
-  .nav {
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
-    color: #344563;
-    margin-right: 32px;
-  }
-
-  .main {
-    margin-bottom: 8rem;
-    padding-top: 15rem;
-    background-image: url("./images/imagebg.png");
-    background-size: cover;
-    background-position: 100%;
-    background-repeat: no-repeat;
-    height: 916px;
-    width: 100%;
-    background-color: #fff;
   }
 
   .canopy {
@@ -643,109 +660,15 @@ button .submit-btn {
     width: 9.5rem;
   }
 
-  .main div {
-    margin: 100px 260px 255px 200px;
-  }
-
-  h1 {
-    width: 500px;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 60px;
-    letter-spacing: 0.37px;
-    color: #091e42;
-  }
-
-  .main p {
-    width: 920px;
-    height: 98px;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
-    color: #344563;
-    margin: 12px 0;
-  }
-
-  .h4-connect {
-    margin-bottom: 14px;
-  }
-
   #aboutme {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 924px;
-    padding: 142px;
+    padding: 0 142px;
   }
 
   #aboutme .me {
-    width: 40%;
-    padding-bottom: 13rem;
-  }
-
-  #aboutme .base-about-myself {
-    width: 60%;
-  }
-
-  #contact-me {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    background-image: url("./images/imagefooter.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: bottom;
-    height: 846px;
     width: 100%;
-    margin-top: -20rem;
-    text-align: center;
-    padding-top: 5rem;
-    z-index: 2;
-  }
-
-  #contact-me .contact-me-text {
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 52px;
-    color: #fff;
-    margin-left: 28.5%;
-    letter-spacing: 2px;
-  }
-
-  .contact-intro h2 {
-    color: #fff;
-  }
-
-  .contact-intro h2,
-  .contact-intro p {
-    text-align: center;
-  }
-
-  .contact-intro p {
-    margin-left: 25%;
-    width: 100%;
-  }
-
-  #contact-me .contact-intro {
-    margin: 10rem;
-    margin-left: -7rem;
-  }
-
-  .name-area,
-  .email-area {
-    height: 48px;
-    width: 447px;
-    background: #fff;
-    border: 1px solid #cfd8dc;
-    border-radius: 2px;
-  }
-
-  .text-area {
-    width: 447px;
-    height: 170px;
-    background: #fff;
-    border: 1px solid #cfd8dc;
-    border-radius: 2px;
   }
 
   .aboutme {
@@ -758,7 +681,11 @@ button .submit-btn {
   }
 
   #aboutme .aboutme {
-    margin-top: 2rem;
+    padding-top: 8.8rem;
+  }
+
+  .contact-intro p {
+    width: 100%;
   }
 
   #aboutme p {
@@ -776,6 +703,57 @@ button .submit-btn {
     color: #344563;
     margin-left: 1rem;
     width: 100%;
+  }
+
+  #contact-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #6070ff url("./images/contact-bg.png");
+    border-top-left-radius: 80px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    padding: 142px 0 127px 0;
+    margin-top: 146px;
+  }
+
+  #contact-me .contact-me-text {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #fff;
+    letter-spacing: 2px;
+  }
+
+  .contact-intro h2 {
+    color: #fff;
+  }
+
+  .base-about-myself {
+    margin-bottom: 0;
+    width: 100%;
+    padding-top: 7rem;
+  }
+
+  .name-area,
+  .email-area {
+    height: 48px;
+    width: 447px;
+    background: #fff;
+    border: 1px solid #cfd8dc;
+    border-radius: 2px;
+  }
+
+  .text-area {
+    width: 447px;
+    height: 170px;
+    background: #fff;
+    border: 1px solid #cfd8dc;
+    border-radius: 2px;
   }
 
   .tag-space {
@@ -819,16 +797,18 @@ button .submit-btn {
 
   .image-2,
   .image {
-    transition: 2s;
+    overflow: hidden;
   }
 
-  .image:hover {
+  .image:hover img {
     transform: scale(1.2);
+    transition: 2s all ease-in-out;
     z-index: 2;
   }
 
-  .image-2:hover {
+  .image-2:hover img {
     transform: scale(1.2);
+    transition: 2s all ease-in-out;
     z-index: 2;
   }
 

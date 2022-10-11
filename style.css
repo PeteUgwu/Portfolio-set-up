@@ -173,7 +173,7 @@ button:not(:first-child) {
 .langbutton button {
   background: #ebebff;
   border-radius: 8px;
-  color: #6070ff;
+  color: #1023d6; /*for accessibility*/
   width: auto;
   height: 24px;
   font-size: 15px;
@@ -804,5 +804,13 @@ button .submit-btn {
 
   .flex-icon .icon {
     transform: rotate(90deg);
+  }
+
+  /* Accessibility */
+
+  label {
+    display: none;
+    font-size: 24px;
+    color: #fff;
   }
 }

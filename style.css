@@ -176,7 +176,7 @@ h4 {
 .langbutton button {
   background: #ebebff;
   border-radius: 8px;
-  color: #6070ff;
+  color: #1d30dd;
   width: auto;
   height: 24px;
   font-size: 15px;
@@ -469,6 +469,12 @@ button .submit-btn {
 .submit-btn:hover {
   background-color: #6070ff;
   color: #fff;
+}
+
+label {
+  color: #fff;
+  font-size: 20px;
+  display: none;
 }
 
 @media screen and (min-width: 768px) {

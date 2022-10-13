@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Peter Portfolio Bootstrap 5</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="landing">
+      <nav
+        class="navbar navbar-expand-sm navbar-blue p-5 m-3 justify-content-between fixed-top"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="javascript:void(0)">My Logo</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mynavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse " id="mynavbar">
+          <ul class="navbar-nav me-auto justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link" href="#Portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Aboutme">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Contactme">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="p-5 m-5">
+      <h1 class="pt-5">I'm Peter <br> Glad to see you!</h1>
+      <p class="p">
+        I’m a software developer! I can help you build a product , feature or
+        website Look through some of my work and experience! If you like what
+        you see and have a project you need coded, don’t hestiate to contact me.
+      </p>
+      <h4>LET'S CONNECT</h4>
+      <ul class="d-inline-flex align-item-start">
+        <li class="p-3 list-group-item disable">
+          <a href="#"><img src="images/twitter.png" alt="Twitter Icon" /></a>
+        </li>
+        <li class="p-3 list-group-item">
+          <a href="#"><img src="images/Linkedin.png" alt="Linkedin Icon" /></a>
+        </li>
+        <li class="p-3 list-group-item">
+          <a href="#"><img src="images/m.png" alt="M Icon" /></a>
+        </li>
+        <li class="p-3 list-group-item">
+          <a href="#"><img src="images/git.png" alt="Git Icon" /></a>
+        </li>
+        <li class="p-3 list-group-item">
+          <a href="#"><img src="images/angelist.png" alt="Angelist Icon" /></a>
+        </li>
+      </ul>
+    </main>
+    </section>
+
+    <section id="Contactme">
+
+      <form action="https://formspree.io/f/xbjbyzdq" method="post">
+
+        <ul>
+          <li class="mb-3 mt-3 list-group-item disable">
+            <label for="email" class="form-label">Full Name::</label>
+            <input type="text" name="fname" placeholder="Name" maxlength="30" required>
+          </li>
+          <li class="mb-3 list-group-item">
+            <label for="email" class="form-label">Email:</label>
+            <input type="email" name="email" placeholder="Email@address.com" required>
+          </li>
+          <li class="mb-3 list-group-item">
+            <label for="email" class="form-label">Message:</label>
+            <textarea name="message" placeholder="Write your message here" maxlength="500" cols="30" rows="10"  required></textarea>
+          </li>
+          <li class="form-check mb-3 list-group-item">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox" name="remember"> Remember me
+            </label>
+          </li>
+        </ul>
+            <button type="submit" class="btn m-5 btn-primary">Get In Touch</button>
+      
+       </form>
+
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+
+
+  </body>
+</html>

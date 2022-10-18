@@ -6,24 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Peter Portfolio Homepage</title>
     <link rel="stylesheet" href="style.css">
-    <link
+    <!-- <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+    /> -->
+    <script src="https://kit.fontawesome.com/a2da67af29.js" crossorigin="anonymous"></script>
   </head>
   <body>
     
     <section class="landing">
     <header>
       <nav class="nav-container toolbar-container"> 
-        <a class="logo" href="#">My Logo</a>  
+        <a class="logo" href="#">My Logo</a>
+        
+        <a class="hamburger">
         <i class="fa fa-solid fa-bars"></i>
+        </a>
         <ul class="menu-bar">
           <li class="nav"><a>Portfolio</a></li>
           <li class="nav"><a>About</a></li>
           <li class="nav"><a>Contact</a></li>
         </ul>
       </nav>
+      
+      <div class="mobile-menu">
+        <div class="mobile-menu-inner">
+          <span class="cancel"><i class="fa-light fa-xmark fa-x"></i></span>
+          <ul class="">
+            <li class="nav-mobile"><a href="#Portfolio">Portfolio</a></li>
+            <li class="nav-mobile"><a href="#aboutme">About</a></li>
+            <li class="nav-mobile"><a href="#contact-me">Contact</a></li>
+          </ul>
+        </div>
+      </div>
 
     </header>
     
@@ -61,7 +76,7 @@
   
 
     <!-- work one section -->
-
+    <section id="Portfolio">
      <section class="card-works works">
       <div class="image ">
         <img src="images/Snap.png" alt="Project"/>
@@ -196,7 +211,8 @@
         <button type="submit" class="btn">See Project</button>
         </div>
         </div>
-    </section> 
+    </section>
+  </section> 
 
       <div class="contact-about-bg">
       <section id="aboutme">
@@ -282,5 +298,6 @@
        </form>
       </section>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>

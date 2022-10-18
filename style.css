@@ -33,14 +33,11 @@ body {
   position: absolute;
   background: #6070ff;
   mix-blend-mode: multiply;
+
   /* z-index: 5; */
   transform: translate(-100%);
   transition: all 1s ease-in-out;
   padding: 1.5rem;
-}
-
-.nav-mobile a {
-  overflow: hidden;
 }
 
 .show {
@@ -48,15 +45,21 @@ body {
   backdrop-filter: blur(8px);
 }
 
+ul,
+li {
+  list-style: none;
+  padding-left: 0;
+}
+
 .mobile-menu-inner ul {
-display: flex;
-flex-direction: column;
-margin-top: 1rem;
-font-style: normal;
-font-weight: 600;
-font-size: 32px;
-line-height: 44px;
-color: #fff;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
 }
 
 .mobile-nav li {
@@ -77,10 +80,19 @@ i {
   font-size: large;
 }
 
+a {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  text-decoration: none;
+  color: #6070ff;
+}
+
 .nav-mobile a {
   color: #fff;
   font-size: 2rem;
   font-weight: 600;
+  overflow: hidden;
 }
 
 .menu-bar {
@@ -281,20 +293,6 @@ button:not(:first-child) {
 
 .icon-tag:not(:first-child) {
   margin: 0 0 0 10px;
-}
-
-ul,
-li {
-  list-style: none;
-  padding-left: 0;
-}
-
-a {
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  text-decoration: none;
-  color: #6070ff;
 }
 
 .btn {

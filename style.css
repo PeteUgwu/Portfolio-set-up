@@ -48,6 +48,21 @@ body {
   backdrop-filter: blur(8px);
 }
 
+.mobile-menu-inner ul {
+display: flex;
+flex-direction: column;
+margin-top: 1rem;
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 44px;
+color: #fff;
+}
+
+.mobile-nav li {
+  margin-bottom: 1.5rem;
+}
+
 .cancel {
   display: block;
   width: 1.5rem;

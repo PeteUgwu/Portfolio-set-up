@@ -1,13 +1,14 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# microverse-portfolio
+# portfolio-set-up
 
-> This is a project to display the contact me section of my portfolio-mobile-version
+> This is a project to add click responses on menu links/bars in the mobile version of my portfolio
 
 ## Built With
 
 - HTML
 - CSS
+- JavaScript
 - Git
 
 ## Getting Started

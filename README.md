@@ -2,7 +2,7 @@
 
 # portfolio-set-up
 
-> This is a project to add click responses on menu links/bars in the mobile version of my portfolio
+> This is a project to add popup window on each click on the project buttons
 
 ## Built With
 
@@ -24,7 +24,10 @@ Web Browser (Google Chrome recommended)
 
 [Live Demo Link](https://peteugwu.github.io/Portfolio-set-up/)
 
-How to Run
+## How to Run
+
+[linkToSource](https://github.com/PeteUgwu/Portfolio-set-up/)
+
 To run the project do the following:
 
 - Clone the repository into a folder

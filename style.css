@@ -133,8 +133,8 @@ a {
 
 .cancels {
   position: absolute;
-  top: 2.5rem;
-  right: 2rem;
+  top: 4.5%;
+  right: 10%;
   z-index: 8;
   border: none;
   background: transparent;
@@ -301,6 +301,7 @@ h4 {
 .langbutton-modal button {
   margin-bottom: 0.4rem;
 }
+
 .image img {
   width: 100%;
   height: 100%;
@@ -823,10 +824,6 @@ label {
     color: #6b778c;
   }
 
-  .langbutton button:not(:first-child) {
-    margin-left: 8px;
-  }
-
   .btn:enabled {
     background-color: #fff;
     color: #6070ff;
@@ -1003,18 +1000,6 @@ label {
     overflow: hidden;
   }
 
-  .image:hover img {
-    transform: scale(1.2);
-    transition: 2s all ease-in-out;
-    z-index: 2;
-  }
-
-  .image-2:hover img {
-    transform: scale(1.2);
-    transition: 2s all ease-in-out;
-    z-index: 2;
-  }
-
   input:hover::placeholder {
     transform: translate(10px);
   }
@@ -1148,8 +1133,25 @@ label {
     padding: 0 0.5rem;
   }
 
+  .langbutton button:not(:first-child) {
+    margin-left: 8px;
+  }
+
   .btn-modal img {
     padding-left: 0.3rem;
+    margin: 4px 15px;
+  }
+
+  .image:hover img {
+    transform: scale(1.2);
+    transition: 2s all ease-in-out;
+    z-index: 2;
+  }
+
+  .image-2:hover img {
+    transform: scale(1.2);
+    transition: 2s all ease-in-out;
+    z-index: 2;
   }
 
   .modal-h2 {

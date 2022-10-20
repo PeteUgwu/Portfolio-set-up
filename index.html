@@ -4,213 +4,100 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+    <title>Peter Portfolio Homepage</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/a2da67af29.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    
-    <section class="landing">
-    <header>
-      <nav class="nav-container toolbar-container"> 
-        <a class="logo" href="#">My Logo</a>  
-        <i class="fa fa-solid fa-bars"></i>
-        <ul class="menu-bar">
-          <li class="nav"><a>Portfolio</a></li>
-          <li class="nav"><a>About</a></li>
-          <li class="nav"><a>Contact</a></li>
-        </ul>
-      </nav>
+    <div class="modal">
+      <button class="cancels" type="button">&times;</button>
 
-    </header>
-    
-      <div class="main">
-      <h1>I’m Peter <br> Glad to see you!</h1>
-      <p>
-        I’m a software developer! I can help you build a product , feature or
-        website Look through some of my work and experience! If you like what
-        you see and have a project you need coded, don’t hestiate to contact me.
-      </p>
-      <h4 class="h4-connect">LET'S CONNECT</h4>
-
-      <ul class="flex item-center">
-        <li class="icon-tag">
-          <a href="#"><img src="images/twitter.png" alt="Twitter Icon" /></a>
-        </li>
-        <li class="icon-tag">
-          <a href="#"><img src="images/Linkedin.png" alt="Linkedin Icon" /></a>
-        </li>
-        <li class="icon-tag">
-          <a href="#"><img src="images/m.png" alt="M Icon" /></a>
-        </li>
-        <li class="icon-tag">
-          <a href="#"><img src="images/git.png" alt="Git Icon" /></a>
-        </li>
-        <li class="icon-tag">
-          <a href="#"><img src="images/angelist.png" alt="Angelist Icon" /></a>
-        </li>
-      </ul>
+      <div class="modal-inner"></div>
     </div>
-  
+
+    <section class="landing">
+      <header>
+        <nav class="nav-container toolbar-container">
+          <a class="logo" href="#">My Logo</a>
+
+          <a class="hamburger">
+            <i class="fa fa-solid fa-bars"></i>
+          </a>
+          <ul class="menu-bar">
+            <li class="nav"><a>Portfolio</a></li>
+            <li class="nav"><a>About</a></li>
+            <li class="nav"><a>Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="mobile-menu">
+          <div class="mobile-menu-inner">
+            <span class="cancel"><i class="fa-light fa-xmark fa-x"></i></span>
+            <ul class="mobile-nav">
+              <li class="nav-mobile"><a href="#Portfolio">Portfolio</a></li>
+              <li class="nav-mobile"><a href="#aboutme">About</a></li>
+              <li class="nav-mobile"><a href="#contact-me">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+
+      <div class="main">
+        <h1>
+          I’m Peter <br />
+          Glad to see you!
+        </h1>
+        <p>
+          I’m a software developer! I can help you build a product , feature or
+          website Look through some of my work and experience! If you like what
+          you see and have a project you need coded, don’t hestiate to contact
+          me.
+        </p>
+        <h4 class="h4-connect">LET'S CONNECT</h4>
+
+        <ul class="flex item-center">
+          <li class="icon-tag">
+            <a href="#"><img src="images/twitter.png" alt="Twitter Icon" /></a>
+          </li>
+          <li class="icon-tag">
+            <a href="#"
+              ><img src="images/Linkedin.png" alt="Linkedin Icon"
+            /></a>
+          </li>
+          <li class="icon-tag">
+            <a href="#"><img src="images/m.png" alt="M Icon" /></a>
+          </li>
+          <li class="icon-tag">
+            <a href="#"><img src="images/git.png" alt="Git Icon" /></a>
+          </li>
+          <li class="icon-tag">
+            <a href="#"
+              ><img src="images/angelist.png" alt="Angelist Icon"
+            /></a>
+          </li>
+        </ul>
+      </div>
     </section>
- 
-  
-  
 
     <!-- work one section -->
+    <section id="Portfolio"></section>
 
-     <section class="card-works works">
-      <div class="image ">
-        <img src="images/Snap.png" alt="Card1"/>
-      </div>
-
-      <div class="card">
-        <h2>Tonic</h2>
-        <ul class="flex item-tag">
-          <li class="icon-tag"><a class="canopy" href="#">CANOPY</a></li>
-          <li class="radio icon-tag"><img src="images/Counter.png" alt="counter" /></li>
-          <li class="icon-tag"><a class="bend-yr bend" href="#">Back End Dev</a></li>
-          <li class=" radio icon-tag"><img src="images/Counter.png" alt="counter" /></li>
-          <li class="icon-tag"><a class="bend-yr"href="#">2015</a></li>
-        </ul>
-
-        <p class="p">
-          A daily selection of privately personalized reads; no accounts or
-          sign-ups required.
-        </p>
-        <div class="langbutton">
-          <button>html</button>
-          <button>css</button>
-          <button>javaScript</button>
-        </div>
-  
-        <div class="div">
-        <button type="submit" class="btn">See Project</button>
-        </div>
-        </div>
-    </section> 
-
-    <!-- work two section -->
-
-    <section class="card-works1 works img-right">
-      <div class="image-2">
-        <img  src="images/Snap2.png" alt="Card1" />
-      </div>
-        <div class="card-2">
-        <h2>Multi-Post Stories</h2>
-        <ul class="flex item-tag">
-          <li class="icon-tag"><a class="canopy" href="#">FACEBOOK</a></li>
-          <li class="radio icon-tag"><img src="images/Counter.png" alt="counter" /></li>
-          <li class="icon-tag"><a class="bend-yr bend" href="#">Full Stack Dev</a></li>
-          <li>
-            <li class="radio icon-tag"><img src="images/Counter.png" alt="counter" /></li>
-          </li>
-
-          <li class="icon-tag"><a class="bend-yr" href="#">2015</a></li>
-        </ul>
-
-        <p class="p">
-          A daily selection of privately personalized reads; no accounts or
-          sign-ups required.
-        </p>
-        <div class="langbutton">
-          <button>html</button>
-          <button>Ruby on rails</button>
-          <button>css</button>
-          <button>javaScript</button>
-        </div>
-  
-        <div class="div">
-        <button type="submit" class="btn">See Project</button>
-      </div>
-    </div>
-      
-    </section> 
-
-    <!-- work three section -->
-
-    <section class="card-works2 works">
-      <div class="image">
-        <img  src="images/Snap3.png" alt="Card1" />
-      </div>
-
-      <div class="card">
-        <h2>Facebook 360</h2>
-
-        <ul class="flex item-tag">
-          <li class="icon-tag"><a class="canopy" href="#">FACEBOOK</a></li>
-          <li class="radio icon-tag"><img src="images/Counter.png" alt="counter" /></li>
-          <li class="icon-tag"><a class="bend-yr bend" href="#">Full Stack Dev</a></li>
-            <li class="radio icon-tag"><img src="images/Counter.png" alt="counter" /></li>
-
-          <li class="icon-tag"><a class="bend-yr" href="#">2015</a></li>
-        </ul>
-
-        <p class="p">
-          A daily selection of privately personalized reads; no accounts or
-          sign-ups required.
-        </p>
-        <div class="langbutton">
-          <button>html</button>
-          <button>Ruby on rails</button>
-          <button>css</button>
-          <button>javaScript</button>
-        </div>
-        <div class="div">
-        <button type="submit" class="btn btn-3">See Project</button>
-      </div>
-      </div>
-    </section> 
-
-    <!-- work four section -->
-
-    <section  class="card-works3 works img-right">
-      <div class="image-2">
-        <img  src="images/Snap4.png" alt="Card1" />
-      </div>
-      <div class="card-2">
-        <h2>Uber Navigation</h2>
-        <ul class="flex item-tag">
-          <li class="icon-tag"><a class="canopy" href="#">Uber</a></li>
-          <li class="radio icon-tag"><img src="images/Counter.png" alt="counter" /></li>
-
-          <li class="icon-tag"><a class="bend-yr bend" href="#">Lead developer</a></li>
-          <li class="radio icon-tag"><img src="images/Counter.png" alt="counter" /></li>
-
-          <li class="icon-tag"><a class="bend-yr" href="#">2018</a></li>
-        </ul>
-        <p class="p">
-          A daily selection of privately personalized reads; no accounts or
-          sign-ups required.
-        </p>
-        <div class="langbutton">
-          <button>html</button>
-          <button>Ruby on rails</button>
-          <button>css</button>
-          <button>javaScript</button>
-        </div>
-        <div class="div">
-        <button type="submit" class="btn">See Project</button>
-        </div>
-        </div>
-    </section> 
-
-      <div class="contact-about-bg">
+    <div class="contact-about-bg">
       <section id="aboutme">
         <div class="me">
           <h3 class="aboutme">About Myself</h3>
           <p>
             Hello I’m a software developer! I can help you build a product ,
-            feature or website Look through some of my work and experience! If you
-            like what you see and have a project you need coded, don’t hestiate to
-            contact me.
+            feature or website Look through some of my work and experience! If
+            you like what you see and have a project you need coded, don’t
+            hestiate to contact me.
           </p>
-  
+
           <h4 class="h4-connect">LET'S CONNECT</h4>
-  
+
           <ul class="flex item-center tag-space">
             <li class="icon-tag">
               <a href="#"><img src="./images/git.png" alt="twitter" /></a>
@@ -229,55 +116,126 @@
             </li>
           </ul>
           <div class="div">
-          <button class="btn-big btn">Get my resume</button>
+            <button class="btn-big btn">Get my resume</button>
           </div>
         </div>
         <div class="base-about-myself">
           <ul class="flex-icon">
-            <li><h4>Languages</h4> </li>
+            <li><h4>Languages</h4></li>
             <li class="icon">></li>
           </ul>
-          
-        <ul class="lang-bg">
-          <li class="flex item-center bg-languages"><a><img class="lang-img" src="images/ellipsejs.png" alt="frameJs" /></a>JavaScript</li>
-          <li class="flex item-center bg-languages"><a><img class="lang-img" src="images/ellipsehtml.png" alt="frameJs" /></a> <br> HTML</li>
-          <li class="flex item-center bg-languages"><a><img class="lang-img" src="images/ellipsecss.png" alt="frameJs" /></a> <br> CSS</li>
-        </ul>
 
-        <div>
-          <ul class="frame-works">
-            <li  class="frameworks"><p>Frameworks</p> ></li> <hr>
-            <li  class="skills"><p>Skills</p> > </li>
-            <hr>
+          <ul class="lang-bg">
+            <li class="flex item-center bg-languages">
+              <a
+                ><img
+                  class="lang-img"
+                  src="images/ellipsejs.png"
+                  alt="frameJs" /></a
+              >JavaScript
+            </li>
+            <li class="flex item-center bg-languages">
+              <a
+                ><img
+                  class="lang-img"
+                  src="images/ellipsehtml.png"
+                  alt="framehtml"
+              /></a>
+              <br />
+              HTML
+            </li>
+            <li class="flex item-center bg-languages">
+              <a
+                ><img
+                  class="lang-img"
+                  src="images/ellipsecss.png"
+                  alt="framecss"
+              /></a>
+              <br />
+              CSS
+            </li>
           </ul>
-         
+
+          <div>
+            <ul class="frame-works">
+              <li class="frameworks">
+                <p>Frameworks</p>
+                >
+              </li>
+              <hr />
+              <li class="skills">
+                <p>Skills</p>
+                >
+              </li>
+              <hr />
+            </ul>
+          </div>
         </div>
-      </div>
       </section>
 
       <section id="contact-me">
         <div class="contact-intro">
           <h2 class="contact-me-text">Contact me</h2>
-          <p>If you have an application you are interested in <br> developing, a feature that you need built or a project <br> that needs coding. I’d love to help with it </p>
+          <p>
+            If you have an application you are interested in <br />
+            developing, a feature that you need built or a project <br />
+            that needs coding. I’d love to help with it
+          </p>
         </div>
-       <form action="https://formspree.io/f/xbjbyzdq" method="post" class="form-container">
-
-        <ul class="form-area">
-          <li>
-            <input type="text" name="fname" placeholder="Name" maxlength="30" class="name-area" required>
-          </li>
-          <li>
-            <input type="email" name="email" placeholder="Email@address.com" class="email-area" required>
-          </li>
-          <li>
-            <textarea name="message" placeholder="Write your message here" maxlength="500" cols="30" rows="10" class="text-area" required></textarea>
-          </li>
-          <li>
-            <button type="submit" class="submit-btn">Get In Touch</button>
-          </li>
-      </ul>
-       </form>
+        <form
+          action="https://formspree.io/f/xbjbyzdq"
+          method="post"
+          class="form-container"
+        >
+          <ul class="form-area">
+            <li>
+              <label>Full Name: </label>
+              <input
+                type="text"
+                name="fname"
+                placeholder="Name"
+                maxlength="30"
+                class="name-area"
+                required
+              />
+            </li>
+            <li>
+              <label>Email Address: </label>
+              <input
+                type="email"
+                name="email"
+                placeholder="Email@address.com"
+                class="email-area"
+                required
+              />
+            </li>
+            <li>
+              <label>Message: </label>
+              <textarea
+                name="message"
+                placeholder="Write your message here"
+                maxlength="500"
+                cols="30"
+                rows="10"
+                class="text-area"
+                required
+              ></textarea>
+            </li>
+            <li>
+              <button type="submit" class="btn submit-btn">Get In Touch</button>
+            </li>
+          </ul>
+        </form>
       </section>
     </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="script.js"></script>
   </body>
 </html>

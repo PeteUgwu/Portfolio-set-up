@@ -1,13 +1,14 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# microverse-portfolio
+# portfolio-set-up
 
-> This is a project to display the contact me section of my portfolio-mobile-version
+> This is a project to add popup window on each click on the project buttons
 
 ## Built With
 
 - HTML
 - CSS
+- JavaScript
 - Git
 
 ## Getting Started
@@ -23,7 +24,10 @@ Web Browser (Google Chrome recommended)
 
 [Live Demo Link](https://peteugwu.github.io/Portfolio-set-up/)
 
-How to Run
+## How to Run
+
+[linkToSource](https://github.com/PeteUgwu/Portfolio-set-up/)
+
 To run the project do the following:
 
 - Clone the repository into a folder

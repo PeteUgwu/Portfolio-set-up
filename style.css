@@ -45,6 +45,10 @@ body {
   backdrop-filter: blur(8px);
 }
 
+.desktop-image {
+  display: none;
+}
+
 ul,
 li {
   list-style: none;
@@ -102,13 +106,13 @@ a {
 .modal {
   position: fixed;
   width: 100%;
-  height: 100%;
+  height: auto;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
   visibility: hidden;
-  background-color: rgb(167, 154, 154);
+  background-color: #c1c7d0;
   z-index: 8;
   display: flex;
   justify-content: center;
@@ -121,16 +125,16 @@ a {
 
 .modal-inner {
   background-color: #fff;
-  width: 98%;
-  min-height: 50vh;
+  width: 90%;
   border-radius: 20px;
   padding: 1rem;
+  height: auto;
 }
 
 .cancels {
   position: absolute;
-  top: 4.5rem;
-  right: 1rem;
+  top: 2.5rem;
+  right: 2rem;
   z-index: 8;
   border: none;
   background: transparent;
@@ -140,12 +144,21 @@ a {
   margin-left: auto;
 }
 
-.btn-modal img {
+.flex .btn-modal {
+  padding: 0.5rem 0.5rem 1rem;
   margin: 0.5rem;
 }
 
-.flex a {
-  margin: 1rem;
+.item-tag-modal {
+  padding: 0;
+}
+
+div .img-modal {
+  margin-bottom: 0.5rem;
+}
+
+.btn-modal img {
+  padding-left: 0.3rem;
 }
 
 .landing {
@@ -227,6 +240,11 @@ h2 {
   margin: 0;
 }
 
+.modal-h2 {
+  margin-bottom: 0;
+  font-size: 24px;
+}
+
 h4 {
   left: 12px;
   right: 78px;
@@ -261,9 +279,17 @@ h4 {
   border-radius: 8px;
 }
 
+.p-modal {
+  margin-bottom: 0.5rem;
+}
+
+.langbutton-modal button {
+  margin-bottom: 0.4rem;
+}
 .image img {
   width: 100%;
   height: 100%;
+  padding-top: 0.5rem;
 }
 
 .image-2 img {
@@ -271,8 +297,16 @@ h4 {
   height: 100%;
 }
 
+.mobile-image {
+  display: inline-block;
+}
+
 .flex {
   display: flex;
+}
+
+.rubby {
+  display: none;
 }
 
 .card-works,
@@ -607,6 +641,14 @@ label {
     display: none;
   }
 
+  .mobile-image {
+    display: none;
+  }
+
+  .desktop-image {
+    display: inline-block;
+  }
+
   .menu-bar {
     display: flex;
     flex-direction: row;
@@ -666,10 +708,10 @@ label {
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: bolder;
-    font-size: 40px;
-    line-height: 52px;
+    font-size: 32px;
+    line-height: 30px;
     color: #091e42;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
   }
 
   .p {
@@ -698,7 +740,8 @@ label {
 
   .image img {
     width: 100%;
-    height: 448px;
+    height: 100%;
+    padding-top: 0;
   }
 
   .card {
@@ -706,6 +749,10 @@ label {
     width: 50%;
     height: auto;
     margin-top: 48px;
+  }
+
+  .rubby {
+    display: inline-block;
   }
 
   .image-2 {
@@ -716,7 +763,7 @@ label {
 
   .image-2 img {
     width: 100%;
-    height: 448px;
+    height: 100%;
   }
 
   .card-2 {
@@ -982,5 +1029,102 @@ label {
     100% {
       -webkit-transform: rotate(360deg);
     }
+  }
+
+  .modal {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    background-color: #c1c7d0;
+    z-index: 8;
+    display: flex;
+    justify-content: center;
+    overflow: auto;
+    padding-top: 1rem;
+  }
+
+  .showModal {
+    visibility: visible;
+  }
+
+  .modal-inner {
+    background-color: #fff;
+    width: 85%;
+    height: auto;
+    border-radius: 20px;
+    padding: 1rem;
+  }
+
+  .flex .btn-modal {
+    margin: 0.5rem;
+    font-size: 0.8rem;
+    display: inline-flex;
+    line-height: 10px;
+  }
+
+  .popup-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+
+  .modal-new {
+    margin: 1rem 1rem 0;
+  }
+
+  .langbutton-modal {
+    margin-bottom: 1.2rem;
+    width: 20%;
+    margin-left: 2rem;
+  }
+
+  .flex-modal {
+    display: flex;
+    justify-content: center;
+  }
+
+  .item-tag-modal {
+    padding: 0;
+    margin-bottom: 0;
+    margin-top: 0.5rem;
+  }
+
+  div .img-modal {
+    margin-bottom: 0.5rem;
+    height: 50vh;
+    width: 100%;
+  }
+
+  .p-modal {
+    margin: 0;
+    padding-bottom: 3rem;
+    line-height: 24px;
+    width: 70%;
+    font-size: 16px;
+    position: relative;
+  }
+
+  .langbutton button {
+    background: #ebebff;
+    border-radius: 8px;
+    color: #6070ff;
+    width: auto;
+    height: 24px;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    border: none;
+    font-weight: 500;
+    padding: 0 0.5rem;
+  }
+
+  .btn-modal img {
+    padding-left: 0.3rem;
+  }
+
+  .modal-h2 {
+    margin-bottom: 0;
   }
 }

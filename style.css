@@ -149,6 +149,21 @@ a {
   margin: 0.5rem;
 }
 
+.popup-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem auto 0;
+}
+
+.langbutton-modal {
+  margin-bottom: 1.2rem;
+}
+
+.modal-new {
+  margin: 0.7rem 0;
+}
+
 .item-tag-modal {
   padding: 0;
 }
@@ -1054,6 +1069,19 @@ label {
     height: auto;
     border-radius: 20px;
     padding: 1rem;
+  }
+
+  .cancels {
+    position: absolute;
+    top: 5%;
+    right: 10%;
+    z-index: 8;
+    border: none;
+    background: transparent;
+    outline: none;
+    color: #67798e;
+    font-size: 2rem;
+    margin-left: auto;
   }
 
   .flex .btn-modal {

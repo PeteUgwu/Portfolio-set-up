@@ -271,6 +271,15 @@ const loadWorks = (data) => {
 
 window.addEventListener('DOMContentLoaded', () => {
   loadWorks(data);
+  const formData = JSON.parse(window.localStorage.getItem('formDatas'));
+  if (formData) {
+    const email = document.querySelector('.email-area');
+    const message = document.querySelector('.text-area');
+    const fullName = document.querySelector('.name-area');
+    email.value = formData.email;
+    message.value = formData.message;
+    fullName.value = formData.fullName;
+  }
 
   const loadModalEle = document.querySelector('#loadModal');
   loadModalEle.addEventListener('click', () => {
@@ -283,8 +292,17 @@ const alertMsg = document.querySelector('small');
 
 form.addEventListener('submit', (event) => {
   const email = document.querySelector('.email-area');
+  const message = document.querySelector('.text-area');
+  const fullName = document.querySelector('.name-area');
+  const formData = {
+    email: email.value,
+    message: message.value,
+    fullName: fullName.value,
+  };
   const emailRegExp = /[A-Z]/;
   if (!emailRegExp.test(email.value)) {
+    window.localStorage.setItem('formDatas', JSON.stringify(formData));
+
     form.submit();
   } else {
     event.preventDefault();

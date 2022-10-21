@@ -2,7 +2,7 @@
 
 # portfolio-set-up
 
-> This is a project to implement a client-side validation of the data in the contact form.
+> This is a project to implement how to Use local storage to save user input.
 
 ## Built With
 

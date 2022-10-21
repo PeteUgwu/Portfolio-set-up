@@ -2,7 +2,7 @@
 
 # portfolio-set-up
 
-> This is a project to add popup window on each click on the project buttons
+> This is a project to implement a client-side validation of the data in the contact form.
 
 ## Built With
 

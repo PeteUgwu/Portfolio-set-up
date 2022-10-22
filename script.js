@@ -271,9 +271,50 @@ const loadWorks = (data) => {
 
 window.addEventListener('DOMContentLoaded', () => {
   loadWorks(data);
+  const emailData = window.localStorage.getItem('emailData');
+  const messageData = window.localStorage.getItem('messageData');
+  const nameData = window.localStorage.getItem('nameData');
+  if (emailData) {
+    const email = document.querySelector('.email-area');
+    email.value = emailData;
+  }
+  if (messageData) {
+    const message = document.querySelector('.text-area');
+    message.value = messageData;
+  }
+  if (nameData) {
+    const fullName = document.querySelector('.name-area');
+    fullName.value = nameData;
+  }
 
   const loadModalEle = document.querySelector('#loadModal');
   loadModalEle.addEventListener('click', () => {
     loadModal(loadModalEle.value);
   });
+});
+
+const form = document.querySelector('form');
+const alertMsg = document.querySelector('small');
+
+const email = document.querySelector('.email-area');
+const message = document.querySelector('.text-area');
+const fullName = document.querySelector('.name-area');
+email.addEventListener('change', () => {
+  window.localStorage.setItem('emailData', email.value);
+});
+message.addEventListener('change', () => {
+  window.localStorage.setItem('messageData', message.value);
+});
+fullName.addEventListener('change', () => {
+  window.localStorage.setItem('nameData', fullName.value);
+});
+
+form.addEventListener('submit', (event) => {
+  const emailRegExp = /[A-Z]/;
+  if (!emailRegExp.test(email.value)) {
+    form.submit();
+  } else {
+    event.preventDefault();
+    alertMsg.innerText = 'Please Enter Your Email Only In Lower Case';
+  }
 });

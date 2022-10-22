@@ -2,7 +2,7 @@
 
 # portfolio-set-up
 
-> This is a project to add popup window on each click on the project buttons
+> This is a project to implement how to Use local storage to save user input.
 
 ## Built With
 

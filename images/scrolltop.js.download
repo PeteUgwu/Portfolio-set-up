@@ -1,0 +1,1 @@
+$(document).ready(function($){$('body').scrollToTop({distance:116,speed:300,easing:'linear',animation:'fade',animationSpeed:500,mobile:{width:768,distance:100,speed:300,easing:'linear',animation:'slide',animationSpeed:200},trigger:null,target:null,text:'Scroll To Top',skin:'square',throttle:250,namespace:'scrollToTop'});});

@@ -4,240 +4,206 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Peter Portfolio Homepage</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css" />
-    <script
-      src="https://kit.fontawesome.com/a2da67af29.js"
-      crossorigin="anonymous"
-    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div class="modal">
-      <button class="cancels" type="button">&times;</button>
-
-      <div class="modal-inner"></div>
-    </div>
-
-    <section class="landing">
-      <header>
-        <nav class="nav-container toolbar-container">
-          <a class="logo" href="#">My Logo</a>
-
-          <a class="hamburger">
-            <i class="fa fa-solid fa-bars"></i>
-          </a>
-          <ul class="menu-bar">
-            <li class="nav"><a>Portfolio</a></li>
-            <li class="nav"><a>About</a></li>
-            <li class="nav"><a>Contact</a></li>
-          </ul>
-        </nav>
-
-        <div class="mobile-menu">
-          <div class="mobile-menu-inner">
-            <span class="cancel"><i class="fa-light fa-xmark fa-x"></i></span>
-            <ul class="mobile-nav">
-              <li class="nav-mobile"><a href="#Portfolio">Portfolio</a></li>
-              <li class="nav-mobile"><a href="#aboutme">About</a></li>
-              <li class="nav-mobile"><a href="#contact-me">Contact</a></li>
-            </ul>
-          </div>
-        </div>
-      </header>
-
-      <div class="main">
-        <h1>
-          I’m Peter <br />
-          Glad to see you!
-        </h1>
-        <p>
-          I’m a software developer! I can help you build a product , feature or
-          website Look through some of my work and experience! If you like what
-          you see and have a project you need coded, don’t hestiate to contact
-          me.
-        </p>
-        <h4 class="h4-connect">LET'S CONNECT</h4>
-
-        <ul class="flex item-center">
-          <li class="icon-tag">
-            <a href="#"><img src="images/twitter.png" alt="Twitter Icon" /></a>
-          </li>
-          <li class="icon-tag">
-            <a href="#"
-              ><img src="images/Linkedin.png" alt="Linkedin Icon"
-            /></a>
-          </li>
-          <li class="icon-tag">
-            <a href="#"><img src="images/m.png" alt="M Icon" /></a>
-          </li>
-          <li class="icon-tag">
-            <a href="#"><img src="images/git.png" alt="Git Icon" /></a>
-          </li>
-          <li class="icon-tag">
-            <a href="#"
-              ><img src="images/angelist.png" alt="Angelist Icon"
-            /></a>
-          </li>
+    <header>
+    <div class=" flex nav-bar">
+        <img src="/images/cck-logo1.png" alt="Logo">
+        <ul class="flex nav-list-item">
+            <li class="nav-item nav-about"><a href="#About">About</a></li>
+            <li class="nav-item"><a href="#">Program</a></li>
+            <li class="nav-item"><a href="#">Join</a></li>
+            <li class="nav-item"><a href="#">Sponsor</a></li>
+            <li class="nav-item"><a href="#">News</a></li>
+            <li class="nav-item nav-border"><a href="#">CC Campaign</a></li>
         </ul>
-      </div>
+    </div>
+    </header>
+    
+    <div class="bg-wrap">
+    
+    <!-- Navigation Menu Mobile -->
+        <nav class="mobile-menu">
+            <a>
+                <button class="openbtn">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </button>
+            </a>
+
+            <div id="menu-list" class="nav-list">
+            <a class="closebtn" href="">&times;</a>
+                <a class="mobile-nav" href="#news">News</a>
+                <a class="mobile-nav" href="#contact">Contact</a>
+                <a class="mobile-nav" href="#About">About</a>
+            </div>
+        </nav>
+    
+      <main id="main">
+    <div class="landing">
+      <p class="before-h12">"Hello Sharing World"</p>
+      <h1>CREATIVE COMMONS GLOBAL SUMMIT 2015</h1>
+      <p class="description-container">
+        A fun festival where people from more than 80 countries who believe in
+        the value of sharing and openness and create positive change gather and
+        share ideas will be held in Korea in October.
+      </p>
+      <h2>2015.10.14 (Wed) ~ 17 (Sat) <br><p class="paragraph">@ National Museum of Korea, Art Center Nabi, etc.</p></h2>
+      
+    </div>
+    </div>
+    <section id="main-program">
+        <div class="program-list">
+        <h2>Main Program<hr class="hr"></h2>
+        <ul class="bg-program">
+            <li><img src="/images/program_icon_01.png" alt="Lecture"></li>
+            <li><h3>Lecture</h3></li>
+            <li> <p>Listen to lectures from speakers from around the world and learn about the latest trends in the world.</p></li>
+        </ul>
+        <ul class="bg-program">
+            <li><img src="/images/program_icon_02.png" alt="Exhibition"></li>
+            <li><h3>CC Exhibition</h3></li>
+            <li><p>Let's meet the creations of artists from various fields who share the open spirit of CC.</p></li>
+        </ul>
+        <ul class="bg-program">
+            <li><img src="/images/program_icon_03.png" alt="Forum"></li>
+            <li><h3>Forum</h3></li>
+            <li><p>We have time to share our thoughts and opinions with experts by topic.</p></li>
+        </ul>
+        <ul class="bg-program">
+            <li><img src="/images/program_icon_04.png" alt="Workshop"></li>
+            <li><h3>Workshop</h3></li>
+            <li><p>You can create your own creations using open source instead of just looking at them.</p></li>
+        </ul>
+        <ul class="bg-program">
+            <li><img src="/images/program_icon_05.png" alt="CC Ignite"></li>
+            <li><h3>CC Ignite</h3></li>
+            <li><p>Create opportunities to freely network with CC personnel from around the world.</p></li>
+        </ul>
+        <button class="join-btn"><a href="#">Join CC Global Summit 2015</a></button> 
+        </div>
     </section>
 
-    <!-- work one section -->
-    <section id="Portfolio"></section>
+    <section id="featured-speakers">
+        <h2>Featured Speakers <hr class="hr"></h2>
+        <div class="speaker-info">
+            <img src="/images/speaker_01.png" alt="First Speaker">
 
-    <div class="contact-about-bg">
-      <section id="aboutme">
-        <div class="me">
-          <h3 class="aboutme">About Myself</h3>
-          <p>
-            Hello I’m a software developer! I can help you build a product ,
-            feature or website Look through some of my work and experience! If
-            you like what you see and have a project you need coded, don’t
-            hestiate to contact me.
-          </p>
-
-          <h4 class="h4-connect">LET'S CONNECT</h4>
-
-          <ul class="flex item-center tag-space">
-            <li class="icon-tag">
-              <a href="#"><img src="./images/git.png" alt="twitter" /></a>
-            </li>
-            <li class="icon-tag">
-              <a href="#"><img src="./images/Linkedin.png" alt="linkedin" /></a>
-            </li>
-            <li class="icon-tag">
-              <a href="#"><img src="./images/angelist.png" alt="m" /></a>
-            </li>
-            <li class="icon-tag">
-              <a href="#"><img src="./images/twitter.png" alt="Github" /></a>
-            </li>
-            <li class="icon-tag">
-              <a href="#"><img src="./images/m.png" alt="angelist" /></a>
-            </li>
-          </ul>
-          <div class="div">
-            <button class="btn-big btn">Get my resume</button>
-          </div>
+        <ul class="speaker">
+            <li><a><h3>Yochai Benkler</h3> </a></li>
+            <li><p class="speaker-post">Professor at Harvard Law School</p></li>
+            <hr>
+            <li>      <p>Focusing on a collaborative approach in a networked environment, he created the concept of co-production based on sharing, such as open source software and Wikipedia.</p></li>
+        </ul>
         </div>
-        <div class="base-about-myself">
-          <ul class="flex-icon">
-            <li><h4>Languages</h4></li>
-            <li class="icon">></li>
-          </ul>
 
-          <ul class="lang-bg">
-            <li class="flex item-center bg-languages">
-              <a
-                ><img
-                  class="lang-img"
-                  src="images/ellipsejs.png"
-                  alt="frameJs" /></a
-              >JavaScript
-            </li>
-            <li class="flex item-center bg-languages">
-              <a
-                ><img
-                  class="lang-img"
-                  src="images/ellipsehtml.png"
-                  alt="framehtml"
-              /></a>
-              <br />
-              HTML
-            </li>
-            <li class="flex item-center bg-languages">
-              <a
-                ><img
-                  class="lang-img"
-                  src="images/ellipsecss.png"
-                  alt="framecss"
-              /></a>
-              <br />
-              CSS
-            </li>
-          </ul>
+        <div class="speaker-info">
+            <img src="/images/speaker_02.png" alt="Second Speaker">
 
-          <div>
-            <ul class="frame-works">
-              <li class="frameworks">
-                <p>Frameworks</p>
-                >
-              </li>
-              <hr />
-              <li class="skills">
-                <p>Skills</p>
-                >
-              </li>
-              <hr />
-            </ul>
-          </div>
+        <ul class="speaker">
+            <li><a><h3>SohYeong Noh</h3></a></li>
+            <li><p class="speaker-post">Art Center Nabi Director, CC Korea Director</p></li>
+            <hr>
+            <li> <p>As the author of <Digital Art Art of Our Time>, he opened 'Art Center Nabi', Korea's first digital art institution, in 2000, and is currently serving.</p></li>
+        </ul>
         </div>
-      </section>
-
-      <section id="contact-me">
-        <div class="contact-intro">
-          <h2 class="contact-me-text">Contact me</h2>
-          <p>
-            If you have an application you are interested in <br />
-            developing, a feature that you need built or a project <br />
-            that needs coding. I’d love to help with it
-          </p>
+        <div class="speaker-info">
+            <img src="/images/speaker_03.png" alt="Third Speaker">
+        <ul class="speaker">
+            <li><a><h3>Layla Tretikov</h3></a></li>
+            <li> <p class="speaker-post">Secretary General of the Wikimedia Foundation</p></li>
+            <hr>
+            <li>  <p>Layla Tretikov is the general secretary of the Wikimedia Foundation, a non-profit organization that runs Wikipedia. Wikipedia is provided free of charge in 290 languages ​​every month to over 100 million people, nearly half of the world's population.</p></li>
+        </ul>
         </div>
-        <form
-          action="https://formspree.io/f/xbjbyzdq"
-          method="post"
-          class="form-container"
-        >
-          <ul class="form-area">
-            <li>
-              <label>Full Name: </label>
-              <input
-                type="text"
-                name="fname"
-                placeholder="Name"
-                maxlength="30"
-                class="name-area"
-                required
-              />
-            </li>
-            <li>
-              <label>Email Address: </label>
-              <input
-                type="email"
-                name="email"
-                placeholder="email@address.com"
-                class="email-area"
-                required
-              />
-            </li>
+        <div class="speaker-info">
+            <img src="/images/speaker_04.png" alt="Third Speaker">
+        <ul class="speaker">
+            <li><a><h3>Jeon Gil-nam</h3></a></li>
+            <li> <p class="speaker-post">Emeritus Professor, Korea Advanced Institute of Science and Technology (KAIST)</p></li>
+            <hr>
+            <li>  <p>By developing Asia's first Internet protocol network SDN and leading Korea's first private line Internet connection in 1990, it ushered in the era of the Internet in earnest.</p></li>
+        </ul>
+        </div>
+        
+        <div class="speaker-info">
+            <img src="/images/speaker_05.png" alt="Third Speaker">
+        <ul class="speaker">
+            <li><a><h3>Julia Leda</h3></a></li>
+            <li> <p class="speaker-post">Head of the Young Pirates of Europe</p></li>
+            <hr>
+            <li> <p>European integration and online youth participation in politics and democracy are major concerns, and a report has been published that will potentially affect the revision of the EU's copyright law in July.</p></li>
+        </ul>
+        </div>
 
-            <li>
-              <label>Message: </label>
-              <textarea
-                name="message"
-                placeholder="Write your message here"
-                maxlength="500"
-                cols="30"
-                rows="10"
-                class="text-area"
-                required
-              ></textarea>
-            </li>
-            <br /><small></small>
-            <li>
-              <button type="submit" class="btn submit-btn">Get In Touch</button>
-            </li>
-          </ul>
-        </form>
-      </section>
+        <div class="speaker-info">
+            <img src="/images/speaker_06.png" alt="Third Speaker">
+        <ul class="speaker">
+            <li><a><h3>Ryan Merkley</h3></a></li>
+            <li> <p class="speaker-post">Creative Commons CEO, Former Mozilla Foundation COO</p></li>
+            <hr>
+            <li> <p>He led open source projects at the Mozilla Foundation and joined CC as CEO in 2014. He has been active in open movements such as open government and open source.</p></li>
+        </ul>
+        </div>
+    </section>
+    </main>
+
+    <section id="About">
+        <div class="about">
+        <P class="before-h1">"Hello! Sharing World"</P>
+        <h2 class="about-headline">CREATIVE COMMONS GLOBAL SUMMIT 2015</h2>
+
+        <p class="about-description">The Creative Commons Global Summit , held every two years, is a place where CC activists from all over the world and experts, scholars and activists from all walks of life who support and practice open culture gather together.</p>
+        <p class="email-contact">Please contact us per Email for any other question about CC GLOBAL SUMMIT 2015!</p>
+        <a href="">CCGLOBALSUMMIT@LOCALMAIL.COM</a>
+        </div>
+        <div class="bg-white">
+        <div class="cc-logo">
+            <h2>Creative Commons Global Summit 2015 Logo </h2><hr class="hr">
+            <p>The logo of CC Global Summit 2015 was decided through the logo competition from 8th, June to 7th, July</p>
+            <div class="img-logo">
+                <img src="/images/logo.png" alt="Logo">
+            </div>
+            <hr class="boundary-about">
+        </div>
+
+        <div class="flex past-summits">
+            <h3>See the past CC Global Summits</h3>
+            <hr class="hr">
+            <p>Take a look at the last two CC Global Summits which took place in Buenos Aires and in Warsaw</p>
+
+            <img src="/images/speaker_05.png" alt="2010 Summit">
+            <img src="/images/speaker_06.png" alt="2015 Summit">
+        </div>
     </div>
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
+        <div id="partner">
+            <h2>Partner <hr class="hr"> </h2>
+            <ul class="partner-list">
+                <li class="partner"><img src="/images/arcadia.png" alt=""></li>
+                <li class="partner"><img src="/images/mozilla.png" alt=""></li>
+                <li class="partner"><img src="/images/iamport.png" alt=""></li>
+            </ul>
+        </div>
+        <footer id="footer">
+            <img src="/images/logo.png" alt="CC Footer Logo">
+            <ul>
+                <li>2015 Creative Commons Korea. Some Rights Reserved.</li>
+            </ul>
+        </footer>
+    </section>
     <script src="script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/1dea6ac3ad.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

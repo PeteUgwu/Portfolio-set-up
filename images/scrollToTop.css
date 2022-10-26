@@ -1,0 +1,88 @@
+html {
+	overflow-y: scroll;
+}
+/* core */
+.scrollToTop {
+	position: fixed;
+	right: 20px;
+	bottom: -100px;
+	opacity: 0;
+	
+	overflow: hidden;
+	outline: none;
+}
+
+.scrollToTop_show {
+	opacity: 1;
+	bottom: 20px;
+}
+
+@-webkit-keyframes scrollToTop_fade {
+	0%	 {opacity: 0;}
+	100% {opacity: 1;}
+}
+@keyframes scrollToTop_fade {
+	0%   {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+@-webkit-keyframes scrollToTop_slide {
+	0%   {bottom: -100px;}
+	100% {bottom: 20px;}
+}
+@keyframes scrollToTop_slide {
+	0%   {bottom: -100px;}
+	100% {bottom: 20px;}
+}
+
+
+.scrollToTop_animating,
+.scrollToTop_animating * {
+	pointer-events: none !important;
+}
+
+/* skin(default) */
+.scrollToTop {
+	width: 50px;
+	height: 50px;
+	color: #000;
+	font-family: sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-indent: 100%;
+	white-space: nowrap;
+	background: no-repeat center center transparent;
+}
+
+.scrollToTop_default {
+	display: block;
+	width: auto;
+	height: auto;
+	padding: 10px;
+	text-indent: 0;
+	background: #eee;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+.scrollToTop_default:hover {
+	background-color: #ddd;
+}
+
+/* skin(square) */
+.scrollToTop_square {
+	background-image: url("/images/base/totopbtn.png");
+	background-size: 50px 50px;
+}
+
+@media screen and (max-width: 768px) {
+	.scrollToTop_square {
+		background-size: 40px 40px;
+	}
+}
+/*.scrollToTop_square:hover {*/
+	/*/!*zoom: 1;*!/*/
+	/*/!*filter: alpha(opacity=50);*!/*/
+	/*/!*opacity: 0.5;*!/*/
+	/*/!*background-image: url("/images/base/totopbtn.png");*!/*/
+/*}*/

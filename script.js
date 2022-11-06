@@ -1,111 +1,111 @@
-const hamburger = document.querySelector('.hamburger');
-const mobileMenu = document.querySelector('.mobile-menu');
-const cancel = document.querySelector('.cancel');
-const body = document.querySelector('body');
-const mobileLinks = document.querySelectorAll('.nav-mobile');
-const modal = document.querySelector('.modal');
-const modalInner = document.querySelector('.modal-inner');
-const cancelsModal = document.querySelector('.cancels');
-const works = document.querySelector('#Portfolio');
+const hamburger = document.querySelector(".hamburger");
+const mobileMenu = document.querySelector(".mobile-menu");
+const cancel = document.querySelector(".cancel");
+const body = document.querySelector("body");
+const mobileLinks = document.querySelectorAll(".nav-mobile");
+const modal = document.querySelector(".modal");
+const modalInner = document.querySelector(".modal-inner");
+const cancelsModal = document.querySelector(".cancels");
+const works = document.querySelector("#Portfolio");
 const width = window.innerWidth;
 const isDesktop = width > 768;
 
 const data = [
   {
     id: 0,
-    name: 'Tonic',
+    name: "Tonic",
     mainDescription:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+      "A daily selection of privately personalized reads; no accounts or sign-ups required.",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     desktopDescription:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    featuredImage: './images/Snapshoot1.png',
-    desktopFeaturedImage: './images/Snap.png',
+    featuredImage: "./images/Snapshoot1.png",
+    desktopFeaturedImage: "./images/Snap.png",
     technologies: [
-      'html',
-      'css',
-      'javascript',
-      'github',
-      'Ruby on rails',
-      'Bootstraps',
+      "html",
+      "css",
+      "javascript",
+      "github",
+      "Ruby on rails",
+      "Bootstraps",
     ],
-    stack: ['CANOPY', 'Back End Dev', 2015],
-    mobileStack: ['CANOPY', 'Back End Dev', 2015],
-    linkToLiveVersion: 'https://peteugwu.github.io/Portfolio-set-up/',
-    linkToSource: 'https://github.com/PeteUgwu/Portfolio-set-up',
+    stack: ["CANOPY", "Back End Dev", 2015],
+    mobileStack: ["CANOPY", "Back End Dev", 2015],
+    linkToLiveVersion: "https://peteugwu.github.io/Portfolio-set-up/",
+    linkToSource: "https://github.com/PeteUgwu/Portfolio-set-up",
   },
   {
     id: 1,
-    name: 'Multi-Post Stories',
+    name: "Multi-Post Stories",
     mainDescription:
-      'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
+      "Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     desktopDescription:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    featuredImage: './images/Snapshoot2.png',
-    desktopFeaturedImage: './images/Snap2.png',
+    featuredImage: "./images/Snapshoot2.png",
+    desktopFeaturedImage: "./images/Snap2.png",
     technologies: [
-      'html',
-      'css',
-      'javascript',
-      'github',
-      'Ruby on rails',
-      'Bootstraps',
+      "html",
+      "css",
+      "javascript",
+      "github",
+      "Ruby on rails",
+      "Bootstraps",
     ],
-    stack: ['FACEBOOK', 'Full Stack Dev', 2015],
-    mobileStack: ['CANOPY', 'Back End Dev', 2015],
-    linkToLiveVersion: 'https://peteugwu.github.io/Portfolio-set-up/',
-    linkToSource: 'https://github.com/PeteUgwu/Portfolio-set-up',
+    stack: ["FACEBOOK", "Full Stack Dev", 2015],
+    mobileStack: ["CANOPY", "Back End Dev", 2015],
+    linkToLiveVersion: "https://peteugwu.github.io/Portfolio-set-up/",
+    linkToSource: "https://github.com/PeteUgwu/Portfolio-set-up",
   },
   {
     id: 2,
-    name: 'Facebook 360',
+    name: "Facebook 360",
     mainDescription:
       "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     desktopDescription:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    featuredImage: './images/Snapshoot3.png',
-    desktopFeaturedImage: './images/Snap3.png',
+    featuredImage: "./images/Snapshoot3.png",
+    desktopFeaturedImage: "./images/Snap3.png",
     technologies: [
-      'html',
-      'css',
-      'javascript',
-      'github',
-      'Ruby on rails',
-      'Bootstraps',
+      "html",
+      "css",
+      "javascript",
+      "github",
+      "Ruby on rails",
+      "Bootstraps",
     ],
-    stack: ['FACEBOOK', 'Full Stack Dev', 2015],
-    mobileStack: ['CANOPY', 'Back End Dev', 2015],
-    linkToLiveVersion: 'https://peteugwu.github.io/Portfolio-set-up/',
-    linkToSource: 'https://github.com/PeteUgwu/Portfolio-set-up',
+    stack: ["FACEBOOK", "Full Stack Dev", 2015],
+    mobileStack: ["CANOPY", "Back End Dev", 2015],
+    linkToLiveVersion: "https://peteugwu.github.io/Portfolio-set-up/",
+    linkToSource: "https://github.com/PeteUgwu/Portfolio-set-up",
   },
   {
     id: 3,
-    name: 'Uber Navigation',
+    name: "Uber Navigation",
     mainDescription:
-      'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
+      "A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     desktopDescription:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    featuredImage: './images/Snapshoot4.png',
-    desktopFeaturedImage: './images/Snap4.png',
+    featuredImage: "./images/Snapshoot4.png",
+    desktopFeaturedImage: "./images/Snap4.png",
     technologies: [
-      'html',
-      'css',
-      'javascript',
-      'github',
-      'Ruby on rails',
-      'Bootstraps',
+      "html",
+      "css",
+      "javascript",
+      "github",
+      "Ruby on rails",
+      "Bootstraps",
     ],
-    stack: ['Uber', 'Lead Developer', 2018],
-    mobileStack: ['CANOPY', 'Back End Dev', 2015],
-    linkToLiveVersion: 'https://peteugwu.github.io/Portfolio-set-up/',
-    linkToSource: 'https://github.com/PeteUgwu/Portfolio-set-up',
+    stack: ["Uber", "Lead Developer", 2018],
+    mobileStack: ["CANOPY", "Back End Dev", 2015],
+    linkToLiveVersion: "https://peteugwu.github.io/Portfolio-set-up/",
+    linkToSource: "https://github.com/PeteUgwu/Portfolio-set-up",
   },
 ];
 
@@ -121,8 +121,8 @@ const openModal = ({
   linkToLiveVersion,
   linkToSource,
 }) => {
-  let display = '';
-  modal.classList.add('showModal');
+  let display = "";
+  modal.classList.add("showModal");
   display += `
   <div>
   <h2 class="modal-h2">${name}</h2>
@@ -130,22 +130,22 @@ const openModal = ({
 
     
     ${
-  isDesktop
-    ? `<li class="icon-tag"><a class="canopy" href="#">${stack[0]}</a></li>`
-    : `<li class="icon-tag"><a class="canopy" href="#">${mobileStack[0]}</a></li>`
-}
+      isDesktop
+        ? `<li class="icon-tag"><a class="canopy" href="#">${stack[0]}</a></li>`
+        : `<li class="icon-tag"><a class="canopy" href="#">${mobileStack[0]}</a></li>`
+    }
     <li class="radio icon-tag"><img src="images/Counter.png" alt="counter" /></li>
     ${
-  isDesktop
-    ? `<li class="icon-tag"><a class="bend-yr bend" href="#">${stack[1]}</a></li>`
-    : `<li class="icon-tag"><a class="canopy" href="#">${mobileStack[1]}</a></li>`
-}
+      isDesktop
+        ? `<li class="icon-tag"><a class="bend-yr bend" href="#">${stack[1]}</a></li>`
+        : `<li class="icon-tag"><a class="canopy" href="#">${mobileStack[1]}</a></li>`
+    }
     <li class=" radio icon-tag"><img src="images/Counter.png" alt="counter" /></li>
     ${
-  isDesktop
-    ? `<li class="icon-tag"><a class="bend-yr"href="#">${stack[2]}</a></li>`
-    : `<li class="icon-tag"><a class="canopy" href="#">${mobileStack[2]}</a></li>`
-}
+      isDesktop
+        ? `<li class="icon-tag"><a class="bend-yr"href="#">${stack[2]}</a></li>`
+        : `<li class="icon-tag"><a class="canopy" href="#">${mobileStack[2]}</a></li>`
+    }
   </ul>
   <div class="image img-modal ">
     <img src=${isDesktop ? desktopFeaturedImage : featuredImage} alt="Project"/>
@@ -160,9 +160,9 @@ const openModal = ({
       <button>${technologies[0]}</button>
       <button>${technologies[1]}</button>
       <button>${technologies[2]}</button>
-      ${isDesktop ? `<button>${technologies[3]}</button>` : ''}
-      ${isDesktop ? `<button>${technologies[4]}</button>` : ''}
-      ${isDesktop ? `<button>${technologies[5]}</button>` : ''}
+      ${isDesktop ? `<button>${technologies[3]}</button>` : ""}
+      ${isDesktop ? `<button>${technologies[4]}</button>` : ""}
+      ${isDesktop ? `<button>${technologies[5]}</button>` : ""}
     </div>
       <hr class="modal-new">
       
@@ -179,19 +179,19 @@ const openModal = ({
   modalInner.innerHTML = display;
 };
 
-hamburger.addEventListener('click', () => {
-  mobileMenu.classList.add('show');
-  body.classList.add('overflowHidden');
+hamburger.addEventListener("click", () => {
+  mobileMenu.classList.add("show");
+  body.classList.add("overflowHidden");
 });
-cancel.addEventListener('click', () => {
-  mobileMenu.classList.remove('show');
-  body.classList.remove('overflowHidden');
+cancel.addEventListener("click", () => {
+  mobileMenu.classList.remove("show");
+  body.classList.remove("overflowHidden");
 });
 
 mobileLinks.forEach((item) => {
-  item.addEventListener('click', () => {
-    mobileMenu.classList.remove('show');
-    body.classList.remove('overflowHidden');
+  item.addEventListener("click", () => {
+    mobileMenu.classList.remove("show");
+    body.classList.remove("overflowHidden");
   });
 });
 
@@ -200,12 +200,12 @@ const loadModal = (i) => {
   openModal(singleData);
 };
 
-cancelsModal.addEventListener('click', () => {
-  modal.classList.remove('showModal');
+cancelsModal.addEventListener("click", () => {
+  modal.classList.remove("showModal");
 });
 
 const loadWorks = (data) => {
-  let display = ' ';
+  let display = " ";
   data.forEach(
     (
       {
@@ -217,36 +217,36 @@ const loadWorks = (data) => {
         stack,
         mobileStack,
       },
-      i,
+      i
     ) => {
       display += `
       <div class="card-works works">
       <div class="image ">
         <img class="desktop-image" src= ${
-  isDesktop ? desktopFeaturedImage : featuredImage
-} alt="Project"/>
+          isDesktop ? desktopFeaturedImage : featuredImage
+        } alt="Project"/>
       </div>
 
       <div class="card">
         <h2>${name}</h2>
         <ul class="flex item-tag">
           ${
-  isDesktop
-    ? `<li class="icon-tag"><a class="canopy" href="#">${stack[0]}</a></li>`
-    : `<li class="icon-tag"><a class="canopy" href="#">${mobileStack[0]}</a></li>`
-}
+            isDesktop
+              ? `<li class="icon-tag"><a class="canopy" href="#">${stack[0]}</a></li>`
+              : `<li class="icon-tag"><a class="canopy" href="#">${mobileStack[0]}</a></li>`
+          }
           <li class="radio icon-tag"><img src="images/Counter.png" alt="counter" /></li>
           ${
-  isDesktop
-    ? `<li class="icon-tag"><a class="bend-yr bend" href="#">${stack[1]}</a></li>`
-    : `<li class="icon-tag"><a class="canopy" href="#">${mobileStack[1]}</a></li>`
-}
+            isDesktop
+              ? `<li class="icon-tag"><a class="bend-yr bend" href="#">${stack[1]}</a></li>`
+              : `<li class="icon-tag"><a class="canopy" href="#">${mobileStack[1]}</a></li>`
+          }
           <li class=" radio icon-tag"><img src="images/Counter.png" alt="counter" /></li>
           ${
-  isDesktop
-    ? `<li class="icon-tag"><a class="bend-yr"href="#">${stack[2]}</a></li>`
-    : `<li class="icon-tag"><a class="canopy" href="#">${mobileStack[2]}</a></li>`
-}
+            isDesktop
+              ? `<li class="icon-tag"><a class="bend-yr"href="#">${stack[2]}</a></li>`
+              : `<li class="icon-tag"><a class="canopy" href="#">${mobileStack[2]}</a></li>`
+          }
         </ul>
 
         <p class="p">
@@ -256,7 +256,7 @@ const loadWorks = (data) => {
           <button>${technologies[0]}</button>
           <button>${technologies[4]}</button>
           <button>${technologies[1]}</button>
-          ${isDesktop ? `<button>${technologies[2]}</button>` : ''}
+          ${isDesktop ? `<button>${technologies[2]}</button>` : ""}
         </div>
   
         <div class="div">
@@ -264,57 +264,57 @@ const loadWorks = (data) => {
         </div>
         </div>
       </div> `;
-    },
+    }
   );
   works.innerHTML = display;
 };
 
-window.addEventListener('DOMContentLoaded', () => {
+window.addEventListener("DOMContentLoaded", () => {
   loadWorks(data);
-  const emailData = window.localStorage.getItem('emailData');
-  const messageData = window.localStorage.getItem('messageData');
-  const nameData = window.localStorage.getItem('nameData');
+  const emailData = window.localStorage.getItem("emailData");
+  const messageData = window.localStorage.getItem("messageData");
+  const nameData = window.localStorage.getItem("nameData");
   if (emailData) {
-    const email = document.querySelector('.email-area');
+    const email = document.querySelector(".email-area");
     email.value = emailData;
   }
   if (messageData) {
-    const message = document.querySelector('.text-area');
+    const message = document.querySelector(".text-area");
     message.value = messageData;
   }
   if (nameData) {
-    const fullName = document.querySelector('.name-area');
+    const fullName = document.querySelector(".name-area");
     fullName.value = nameData;
   }
 
-  const loadModalEle = document.querySelector('#loadModal');
-  loadModalEle.addEventListener('click', () => {
+  const loadModalEle = document.querySelector("#loadModal");
+  loadModalEle.addEventListener("click", () => {
     loadModal(loadModalEle.value);
   });
 });
 
-const form = document.querySelector('form');
-const alertMsg = document.querySelector('small');
+const form = document.querySelector("form");
+const alertMsg = document.querySelector("small");
 
-const email = document.querySelector('.email-area');
-const message = document.querySelector('.text-area');
-const fullName = document.querySelector('.name-area');
-email.addEventListener('change', () => {
-  window.localStorage.setItem('emailData', email.value);
+const email = document.querySelector(".email-area");
+const message = document.querySelector(".text-area");
+const fullName = document.querySelector(".name-area");
+email.addEventListener("change", () => {
+  window.localStorage.setItem("emailData", email.value);
 });
-message.addEventListener('change', () => {
-  window.localStorage.setItem('messageData', message.value);
+message.addEventListener("change", () => {
+  window.localStorage.setItem("messageData", message.value);
 });
-fullName.addEventListener('change', () => {
-  window.localStorage.setItem('nameData', fullName.value);
+fullName.addEventListener("change", () => {
+  window.localStorage.setItem("nameData", fullName.value);
 });
 
-form.addEventListener('submit', (event) => {
+form.addEventListener("submit", (event) => {
   const emailRegExp = /[A-Z]/;
   if (!emailRegExp.test(email.value)) {
     form.submit();
   } else {
     event.preventDefault();
-    alertMsg.innerText = 'Please Enter Your Email Only In Lower Case';
+    alertMsg.innerText = "Please Enter Your Email Only In Lower Case";
   }
 });

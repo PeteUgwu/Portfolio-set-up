@@ -31,10 +31,8 @@ body {
   left: 0;
   right: 0;
   position: absolute;
-  background: #6070ff;
+  background: #fff;
   mix-blend-mode: multiply;
-
-  /* z-index: 5; */
   transform: translate(-100%);
   transition: all 1s ease-in-out;
   padding: 1.5rem;
@@ -43,16 +41,31 @@ body {
 .show {
   transform: translate(0);
   backdrop-filter: blur(8px);
+  background: #6070ff;
+  width: 100%;
+  height: 100vh;
 }
-
-/* .desktop-image {
-  display: none;
-} */
 
 ul,
 li {
   list-style: none;
   padding-left: 0;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /* padding: 20px 36px 15px 24px; */
+  box-sizing: border-box;
+  background-color: #fff;
+  z-index: 1;
 }
 
 .mobile-menu-inner ul {
@@ -74,9 +87,9 @@ li {
   display: block;
   width: 1.5rem;
   padding: 0 1rem;
-  margin-left: auto;
   color: #fff;
   font-size: 2rem;
+  margin-left: auto;
 }
 
 i {
@@ -180,6 +193,7 @@ div .img-modal {
   padding: 24px 24px 1px;
   border-bottom-left-radius: 80px;
   margin-bottom: 2rem;
+  margin-top: 3rem;
   background-image: url("/images/headerbg.png");
   background-size: cover;
   background-position: 100% 10%;
@@ -198,18 +212,18 @@ div .img-modal {
 }
 
 .nav-container {
-  width: 100%;
-  height: 12px;
+  width: 80%;
   color: #6070ff;
 }
 
-a .logo {
+#logo {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
   color: #6070ff;
+  padding-left: 2.5rem;
 }
 
 p {
@@ -241,6 +255,9 @@ h1 {
   padding-top: 50px;
   margin-bottom: 0;
   color: #172b4d;
+  transition-property: font-size;
+  transition-duration: 4s;
+  transition-delay: 2s;
 }
 
 h2 {
@@ -538,7 +555,6 @@ hr {
 }
 
 .form-area {
-  margin: 0 1.5rem;
   width: 100%;
 }
 
@@ -644,14 +660,23 @@ small {
     width: 100%;
     background-color: #fff;
     margin-bottom: 8rem;
+    margin-top: 0;
     border-bottom-left-radius: 80px;
+  }
+
+  header {
+    width: 100%;
+    position: fixed;
+    background-color: #fff;
+    padding-top: 0;
+    padding-bottom: 5px;
   }
 
   .nav-container {
     background-color: #fff;
     width: 100%;
     overflow: hidden;
-    padding-bottom: 2rem;
+    padding-top: 0;
   }
 
   .nav-container .fa-bars {
@@ -676,6 +701,8 @@ small {
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
   }
 
   .nav {
@@ -686,6 +713,22 @@ small {
     line-height: 20px;
     color: #344563;
     margin-right: 32px;
+  }
+
+  .nav a:hover {
+    color: #6070ff;
+  }
+
+  .nav a::after {
+    display: block;
+    content: "";
+    border-bottom: solid 3px #6070ff;
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .nav a:hover::after {
+    transform: scaleX(1);
   }
 
   .main {
@@ -1009,17 +1052,22 @@ small {
     transform: translate(10px);
   }
 
-  .logo {
+  #logo {
     margin-left: 9.688rem;
     animation: spin 2s;
+    transition: transform 0.4s ease-in-out;
   }
 
-  nav .logo {
+  nav #logo {
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 20px;
     color: #6070ff;
+  }
+
+  #logo:hover {
+    transform: scale(1.1);
   }
 
   @keyframes spin {

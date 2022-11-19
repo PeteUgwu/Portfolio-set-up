@@ -20,8 +20,8 @@ const data = [
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     desktopDescription:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    featuredImage: "./images/Snapshoot1.png",
-    desktopFeaturedImage: "./images/Snap.png",
+    featuredImage: "./images/GTCOFOOD.png",
+    desktopFeaturedImage: "./images/GTCOFOOD.png",
     technologies: [
       "html",
       "css",
@@ -32,8 +32,8 @@ const data = [
     ],
     stack: ["CANOPY", "Back End Dev", 2015],
     mobileStack: ["CANOPY", "Back End Dev", 2015],
-    linkToLiveVersion: "https://peteugwu.github.io/Portfolio-set-up/",
-    linkToSource: "https://github.com/PeteUgwu/Portfolio-set-up",
+    linkToLiveVersion: "https://peteugwu.github.io/html-Capstone/",
+    linkToSource: "https://github.com/PeteUgwu/html-Capstone",
   },
   {
     id: 1,
@@ -44,8 +44,8 @@ const data = [
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     desktopDescription:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    featuredImage: "./images/Snapshoot2.png",
-    desktopFeaturedImage: "./images/Snap2.png",
+    featuredImage: "./images/todomobile.png",
+    desktopFeaturedImage: "./images/tododesktop.png",
     technologies: [
       "html",
       "css",
@@ -56,8 +56,8 @@ const data = [
     ],
     stack: ["FACEBOOK", "Full Stack Dev", 2015],
     mobileStack: ["CANOPY", "Back End Dev", 2015],
-    linkToLiveVersion: "https://peteugwu.github.io/Portfolio-set-up/",
-    linkToSource: "https://github.com/PeteUgwu/Portfolio-set-up",
+    linkToLiveVersion: "https://github.com/PeteUgwu/To-Do-list",
+    linkToSource: "https://github.com/PeteUgwu/To-Do-list",
   },
   {
     id: 2,

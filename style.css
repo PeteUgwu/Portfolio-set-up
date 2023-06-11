@@ -153,6 +153,7 @@ a {
   color: #67798e;
   font-size: 2rem;
   margin-left: auto;
+  cursor: pointer;
 }
 
 .flex .btn-modal {
@@ -451,6 +452,15 @@ button:not(:first-child) {
   margin-right: 16px;
 }
 
+.lang-resize {
+  width: 65px;
+  margin-left: 0;
+}
+
+.lang-js {
+  padding-left: 0.75rem;
+}
+
 .frameworks,
 .skills {
   width: 100%;
@@ -731,7 +741,7 @@ small {
   }
 
   .main {
-    padding: 260px 10px 255px 205px;
+    padding: 100px 10px 150px 180px;
     text-align: left;
     width: 100%;
   }

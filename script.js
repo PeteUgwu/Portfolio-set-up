@@ -41,7 +41,7 @@ const data = [
     mainDescription:
       "It is a Web App that serves as a tool to organize your day. It simply allows you to add lists of things you need to do, display these lists, and give you the option of deleting them singly or marking each or all as complete.",
     description:
-      "It is a Web App that serves as a tool to organize your day. It simply allows you to add lists of things you need to do, display these lists, and give you the option of deleting them singly or marking each or all as complete. It also allows you to edit the displayed list and retain its position. The data passed during the above activities are preserved so as to be viewed and re-used when needed",
+      "It is a Web App that serves as a tool to organize your day. It simply allows you to add lists of things you need to do, display these lists, and give you the option of deleting them singly or marking each or all as complete. It also allows you to edit the displayed list and retain its position.",
     desktopDescription:
       "It is a Web App that serves as a tool to organize your day. It simply allows you to add lists of things you need to do, display these lists, and give you the option of deleting them singly or marking each or all as complete. It also allows you to edit the displayed list and retain its position. The data passed during the above activities are preserved so as to be viewed and re-used when needed",
     featuredImage: "./images/todomobile.png",

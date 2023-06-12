@@ -13,99 +13,99 @@ const isDesktop = width > 768;
 const data = [
   {
     id: 0,
-    name: "Tonic",
+    name: "GTCO Annual Fest",
     mainDescription:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required.",
+      "This is a responsive conference website for an annual food exhibition and sales event aimed at projecting the diverse angles of the food industry. ",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+      "This is a responsive conference website for an annual food exhibition and sales event aimed at projecting the diverse angles of the food industry. The program's brief description featured chefs, and partners are made visible on the page. ",
     desktopDescription:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+      "This is a responsive conference website for an annual food exhibition and sales event aimed at projecting the diverse angles of the food industry. The program's brief description featured chefs, and partners are made visible on the page. A few tweaks were implemented with JavaScript to load section differences on mobile and desktop",
     featuredImage: "./images/GTCOFOOD.png",
     desktopFeaturedImage: "./images/GTCOFOOD.png",
     technologies: [
-      "html",
-      "css",
-      "javascript",
-      "github",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "Git",
       "Ruby on rails",
       "Bootstraps",
     ],
-    stack: ["CANOPY", "Back End Dev", 2015],
-    mobileStack: ["CANOPY", "Back End Dev", 2015],
-    linkToLiveVersion: "https://peteugwu.github.io/html-Capstone/",
-    linkToSource: "https://github.com/PeteUgwu/html-Capstone",
+    stack: ["Conference", "Front End Dev", 2022],
+    mobileStack: ["Conference", "Front End Dev", 2022],
+    linkToLiveVersion: "https://peteugwu.github.io/Food-Drink-Conference/",
+    linkToSource: "https://github.com/PeteUgwu/Food-Drink-Conference",
   },
   {
     id: 1,
-    name: "Multi-Post Stories",
+    name: "To Do list",
     mainDescription:
-      "Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.",
+      "It is a Web App that serves as a tool to organize your day. It simply allows you to add lists of things you need to do, display these lists, and give you the option of deleting them singly or marking each or all as complete.",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+      "It is a Web App that serves as a tool to organize your day. It simply allows you to add lists of things you need to do, display these lists, and give you the option of deleting them singly or marking each or all as complete. It also allows you to edit the displayed list and retain its position.",
     desktopDescription:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+      "It is a Web App that serves as a tool to organize your day. It simply allows you to add lists of things you need to do, display these lists, and give you the option of deleting them singly or marking each or all as complete. It also allows you to edit the displayed list and retain its position. The data passed during the above activities are preserved so as to be viewed and re-used when needed",
     featuredImage: "./images/todomobile.png",
     desktopFeaturedImage: "./images/tododesktop.png",
     technologies: [
-      "html",
-      "css",
-      "javascript",
-      "github",
-      "Ruby on rails",
-      "Bootstraps",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "GitHub",
+      "Git",
+      "Linters",
     ],
-    stack: ["FACEBOOK", "Full Stack Dev", 2015],
-    mobileStack: ["CANOPY", "Back End Dev", 2015],
+    stack: ["CALENDAR", "Front End Dev", 2022],
+    mobileStack: ["SCHEDULE", "Front End Dev", 2022],
     linkToLiveVersion: "https://github.com/PeteUgwu/To-Do-list",
     linkToSource: "https://github.com/PeteUgwu/To-Do-list",
   },
   {
     id: 2,
-    name: "Facebook 360",
+    name: "Budget",
     mainDescription:
-      "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
+      "Budget app is a software app which allows users to track income, expenses, and savings, set financial goals, and monitor their progress towards those goals.",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+      "Budget app is a software app which allows users to track income, expenses, and savings, set financial goals, and monitor their progress towards those goals. Budget apps can also offer features such as bill reminders, categorization of expenses, and analysis of spending habits.",
     desktopDescription:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+      "Budget app is a software app which allows users to track income, expenses, and savings, set financial goals, and monitor their progress towards those goals. Budget apps can also offer features such as bill reminders, categorization of expenses, and analysis of spending habits.",
     featuredImage: "./images/budgetpal.png",
     desktopFeaturedImage: "./images/budgetpal.png",
     technologies: [
-      "html",
-      "css",
-      "javascript",
-      "github",
-      "Ruby on rails",
-      "Bootstraps",
+      "CSS3",
+      "PostgreSQL",
+      "Ruby on Rails",
+      "Git",
+      "GitHub",
+      "RSpec",
     ],
-    stack: ["FACEBOOK", "Full Stack Dev", 2015],
-    mobileStack: ["CANOPY", "Back End Dev", 2015],
-    linkToLiveVersion: "https://peteugwu.github.io/Portfolio-set-up/",
-    linkToSource: "https://github.com/PeteUgwu/Portfolio-set-up",
+    stack: ["ACCOUNTS", "Full Stack Dev", 2023],
+    mobileStack: ["BUDGET", "Back End Dev", 2023],
+    linkToLiveVersion: "https://github.com/PeteUgwu/Budget-app",
+    linkToSource: "https://github.com/PeteUgwu/Budget-app",
   },
   {
     id: 3,
-    name: "Uber Navigation",
+    name: "Bulletin",
     mainDescription:
-      "A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.",
+      "Bulletin is a Web-App that displays and allow users to navigate through pages, and filter data for an individual Article.",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+      "Bulletin is a Web-App that displays and allow users to navigate through pages, and filter data for an individual Article. Users can see each Articles' more details by clicking on `Click to View` on each Article cards.",
     desktopDescription:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    featuredImage: "./images/Snapshoot4.png",
-    desktopFeaturedImage: "./images/Snap4.png",
+      "Bulletin is a Web-App that displays and allow users to navigate through pages, and filter data for an individual Article. Users can see each Articles' more details by clicking on `Click to View` on each Article cards.",
+    featuredImage: "./images/bulletinMobile.png",
+    desktopFeaturedImage: "./images/bulletinDesktop.png",
     technologies: [
-      "html",
-      "css",
-      "javascript",
-      "github",
-      "Ruby on rails",
-      "Bootstraps",
+      "React JSX",
+      "SCSS",
+      "React",
+      "GitHub",
+      "Animations",
+      "Git",
     ],
-    stack: ["Uber", "Lead Developer", 2018],
-    mobileStack: ["CANOPY", "Back End Dev", 2015],
-    linkToLiveVersion: "https://peteugwu.github.io/Portfolio-set-up/",
-    linkToSource: "https://github.com/PeteUgwu/Portfolio-set-up",
+    stack: ["News", "Front End Dev", 2023],
+    mobileStack: ["News", "Front End Dev", 2023],
+    linkToLiveVersion: "https://github.com/PeteUgwu/bulletin",
+    linkToSource: "https://github.com/PeteUgwu/bulletin",
   },
 ];
 
@@ -253,14 +253,14 @@ const loadWorks = (data) => {
           ${mainDescription}
         </p>
         <div class="langbutton">
-          <button>${technologies[0]}</button>
-          <button>${technologies[4]}</button>
+          <button>${technologies[2]}</button>
           <button>${technologies[1]}</button>
-          ${isDesktop ? `<button>${technologies[2]}</button>` : ""}
+          <button>${technologies[0]}</button>
+          ${isDesktop ? `<button>${technologies[3]}</button>` : ""}
         </div>
   
         <div class="div">
-        <button type="submit" id="loadModal" value="${i}" onclick='loadModal(${i}) '  class="btn-modal btn">See Project</button>
+        <button type="submit" id="loadModal" value="${i}" onclick='loadModal(${i}) '  class="btn-modal btn">More Detail</button>
         </div>
         </div>
       </div> `;
@@ -318,3 +318,33 @@ form.addEventListener("submit", (event) => {
     alertMsg.innerText = "Please Enter Your Email Only In Lower Case";
   }
 });
+// languages close toggle
+
+const langArrowClick = document.querySelector('#languages');
+const langMenu = document.querySelector('#lang-menu');
+
+langArrowClick.addEventListener('click', () => {
+  langArrowClick.classList.toggle('anti-rotate');
+  langMenu.classList.toggle('close-lang-menu');
+});
+
+// framework dropdown toggle
+
+const framework = document.querySelector('#framework');
+const frameworkMenu = document.querySelector('#framework-menu');
+
+framework.addEventListener('click', () => {
+  framework.classList.toggle('rotate');
+  frameworkMenu.classList.toggle('open-framework-dropdown');
+});
+
+// skills dropdown toggle
+
+const skills = document.querySelector('#skills');
+const skillsMenu = document.querySelector('#skills-menu');
+
+skills.addEventListener('click', () => {
+  skills.classList.toggle('rotate');
+  skillsMenu.classList.toggle('open-skills-dropdown');
+});
+

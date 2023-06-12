@@ -14,24 +14,24 @@
   <body>
     <div class="modal">
       <button class="cancels" type="button">&times;</button>
-
       <div class="modal-inner"></div>
     </div>
 
     <section class="landing">
-      <header>
-        <nav class="nav-container toolbar-container">
-          <a id="logo" href="#">My Logo</a>
-
-          <a class="hamburger">
-            <i class="fa fa-solid fa-bars"></i>
-          </a>
-          <ul class="menu-bar">
-            <li class="nav"><a href="#Portfolio">Portfolio</a></li>
-            <li class="nav"><a href="#aboutme">About</a></li>
-            <li class="nav"><a href="#contact-me">Contact</a></li>
-          </ul>
-        </nav>
+        <div class="header">
+          <nav class="nav-container toolbar-container">
+            <a id="logo" href="#"><img src="images/logo.png" alt="Logo"></a>
+  
+            <a class="hamburger">
+              <i class="fa fa-solid fa-bars"></i>
+            </a>
+            <ul class="menu-bar">
+              <li class="nav"><a href="#Portfolio">Portfolio</a></li>
+              <li class="nav"><a href="#aboutme">About</a></li>
+              <li class="nav"><a href="#contact-me">Contact</a></li>
+            </ul>
+          </nav>
+        
 
         <div class="mobile-menu">
           <div class="mobile-menu-inner">
@@ -43,7 +43,7 @@
             </ul>
           </div>
         </div>
-      </header>
+      </div>
 
       <div class="main">
         <h1>
@@ -60,10 +60,10 @@
 
         <ul class="flex item-center">
           <li class="icon-tag">
-            <a href="#"><img src="images/twitter.png" alt="Twitter Icon" /></a>
+            <a href="https://twitter.com/Petrus4Charles"><img src="images/twitter.png" alt="Twitter Icon" /></a>
           </li>
           <li class="icon-tag">
-            <a href="#"
+            <a href="https://www.linkedin.com/in/peteugwu/"
               ><img src="images/Linkedin.png" alt="Linkedin Icon"
             /></a>
           </li>
@@ -71,10 +71,10 @@
             <a href="#"><img src="images/m.png" alt="M Icon" /></a>
           </li>
           <li class="icon-tag">
-            <a href="#"><img src="images/git.png" alt="Git Icon" /></a>
+            <a href="https://github.com/PeteUgwu"><img src="images/git.png" alt="GitHub Icon" /></a>
           </li>
           <li class="icon-tag">
-            <a href="#"
+            <a href="https://wellfound.com/u/peteugwu"
               ><img src="images/angelist.png" alt="Angelist Icon"
             /></a>
           </li>
@@ -100,77 +100,97 @@
 
           <ul class="flex item-center tag-space">
             <li class="icon-tag">
-              <a href="#"><img src="./images/git.png" alt="twitter" /></a>
+              <a href="https://github.com/PeteUgwu"><img src="./images/git.png" alt="GitHub Icon" /></a>
             </li>
             <li class="icon-tag">
-              <a href="#"><img src="./images/Linkedin.png" alt="linkedin" /></a>
+              <a href="https://www.linkedin.com/in/peteugwu/"><img src="./images/Linkedin.png" alt="linkedin Icon" /></a>
             </li>
             <li class="icon-tag">
-              <a href="#"><img src="./images/angelist.png" alt="m" /></a>
+              <a href="https://wellfound.com/u/peteugwu"><img src="./images/angelist.png" alt="Angelist Icon" /></a>
             </li>
             <li class="icon-tag">
-              <a href="#"><img src="./images/twitter.png" alt="Github" /></a>
+              <a href="https://twitter.com/Petrus4Charles"><img src="./images/twitter.png" alt="Twitter Icon" /></a>
             </li>
             <li class="icon-tag">
-              <a href="#"><img src="./images/m.png" alt="angelist" /></a>
+              <a href="#"><img src="./images/m.png" alt="m Icon" /></a>
             </li>
           </ul>
           <div class="div">
-            <button class="btn-big btn">Get my resume</button>
+            <a href="https://docs.google.com/document/d/1pFRjUSt8YMpLVBz_h3quuUF6F3_bsLT_UqfKEQQm0gA/edit?usp=sharing"><button class="btn-big btn">Get my resume</button></a>
           </div>
         </div>
         <div class="base-about-myself">
-          <ul class="flex-icon">
-            <li><h4>Languages</h4></li>
-            <li class="icon">></li>
-          </ul>
+          <div class="flex-icon">
+            <button class="lang-button">
+              Languages
+            </button>
+            <i class="fa-solid fa-chevron-down" id="languages"></i>
+          </div>
 
-          <ul class="lang-bg">
+          <div id="lang-menu" class="lang-bg">
+          <ul class="flex-lang">
             <li class="flex item-center bg-languages">
               <a
                 ><img
-                  class="lang-img"
+                  class="lang-img lang-js"
                   src="images/ellipsejs.png"
-                  alt="frameJs" /></a
+                  alt="JavaScript Icon" /></a
               >JavaScript
             </li>
             <li class="flex item-center bg-languages">
               <a
                 ><img
-                  class="lang-img"
-                  src="images/ellipsehtml.png"
-                  alt="framehtml"
+                  class="lang-img lang-resize"
+                  src="images/ruby.png"
+                  alt="Ruby Icon"
               /></a>
               <br />
-              HTML
+              Ruby
             </li>
             <li class="flex item-center bg-languages">
               <a
                 ><img
-                  class="lang-img"
-                  src="images/ellipsecss.png"
-                  alt="framecss"
+                  class="lang-img lang-resize"
+                  src="images/postgreSQL.png"
+                  alt="PostgreSQL Icon"
               /></a>
               <br />
-              CSS
+              PostgreSQL
             </li>
           </ul>
-
-          <div>
-            <ul class="frame-works">
-              <li class="frameworks">
-                <p>Frameworks</p>
-                >
-              </li>
-              <hr />
-              <li class="skills">
-                <p>Skills</p>
-                >
-              </li>
-              <hr />
-            </ul>
           </div>
-        </div>
+
+          <div class="frame-works">
+              <button class="framework-button">
+                Frameworks/Libraries
+              </button>
+              <i class="fa-solid fa-chevron-right"  id="framework"></i>
+            </div>
+            <div class="framework-dropdown" id="framework-menu">
+              <ul class="framework-dropdown-ul">
+                <li class="framework-dropdown-li">React</li>
+                <li class="framework-dropdown-li">Redux</li>
+                <li class="framework-dropdown-li">Rails</li>
+                <li class="framework-dropdown-li">Sass</li>
+              </ul>
+            </div>
+              <hr />
+              <div class="skills">
+              <button class="skills-button" >Skills</button>
+              <i id="skills"class="fa-solid fa-chevron-right" id="skills-arrow"></i>
+              </div>
+            <div class="skills-dropdown" id="skills-menu">
+              <ul class="skills-dropdown-ul">
+                <li class="skills-dropdown-li">Web Developer</li>
+                <li class="skills-dropdown-li">Remote work</li>
+                <li class="skills-dropdown-li">Management</li>
+                <li class="skills-dropdown-li">Communication</li>
+                <li class="skills-dropdown-li">Good listener</li>
+                <li class="skills-dropdown-li">Team Player</li>
+              </ul>
+            </div>
+              <hr />
+          </div>
       </section>
 
       <section id="contact-me">

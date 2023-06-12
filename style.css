@@ -1,4 +1,3 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap"); */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap");
 
 * {
@@ -210,6 +209,17 @@ div .img-modal {
   padding: 0.5rem 2rem 0.5rem 0;
 }
 
+.image img {
+  width: 100%;
+  height: 100%;
+  padding-top: 0.5rem;
+}
+
+.image-2 img {
+  width: 100%;
+  height: 100%;
+}
+
 #logo img {
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -311,17 +321,6 @@ h4 {
   margin-bottom: 0.4rem;
 }
 
-.image img {
-  width: 100%;
-  height: 100%;
-  padding-top: 0.5rem;
-}
-
-.image-2 img {
-  width: 100%;
-  height: 100%;
-}
-
 .flex {
   display: flex;
 }
@@ -371,7 +370,8 @@ h4 {
   padding: 0 1rem;
 }
 
-.framework-button, .lang-button {
+.framework-button,
+.lang-button {
   display: flex;
   border: none;
   background-color: white;
@@ -384,14 +384,14 @@ h4 {
 
 #languages {
   transition: opacity 600ms ease-in-out;
-
 }
 
-#framework:hover, #skills:hover, #languages:hover{
+#framework:hover,
+#skills:hover,
+#languages:hover {
   background-color: white;
   box-shadow: 2px 5px 20px 4px rgb(96, 112, 255, 0.6);
   cursor: pointer;
-
 }
 
 .framework-dropdown {
@@ -514,7 +514,6 @@ h4 {
   background-color: white;
   box-shadow: 2px 5px 20px 4px rgb(96, 112, 255, 0.6);
 }
-
 
 .bend {
   padding: auto 10px;
@@ -1030,7 +1029,7 @@ small {
     cursor: not-allowed;
   }
 
-  .btn:hover{
+  .btn:hover {
     background-color: #6070ff;
     box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
     border-radius: 8px;
@@ -1191,6 +1190,23 @@ small {
     transform: translate(10px);
   }
 
+  .btn-modal img {
+    padding-left: 0.3rem;
+    margin: 4px 15px;
+  }
+
+  .image:hover img {
+    transform: scale(1.2);
+    transition: 2s all ease-in-out;
+    z-index: 2;
+  }
+
+  .image-2:hover img {
+    transform: scale(1.2);
+    transition: 2s all ease-in-out;
+    z-index: 2;
+  }
+
   #logo img {
     margin-left: 9.688rem;
     animation: spin 2s;
@@ -1323,23 +1339,6 @@ small {
     margin-left: 8px;
   }
 
-  .btn-modal img {
-    padding-left: 0.3rem;
-    margin: 4px 15px;
-  }
-
-  .image:hover img {
-    transform: scale(1.2);
-    transition: 2s all ease-in-out;
-    z-index: 2;
-  }
-
-  .image-2:hover img {
-    transform: scale(1.2);
-    transition: 2s all ease-in-out;
-    z-index: 2;
-  }
-
   .modal-h2 {
     margin-bottom: 0;
   }
@@ -1366,7 +1365,8 @@ small {
     margin-top: 0.5rem;
   }
 
-  .frame-works, .skills {
+  .frame-works,
+  .skills {
     margin-bottom: 1rem;
   }
 }

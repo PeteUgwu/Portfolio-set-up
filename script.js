@@ -318,3 +318,33 @@ form.addEventListener("submit", (event) => {
     alertMsg.innerText = "Please Enter Your Email Only In Lower Case";
   }
 });
+// languages close toggle
+
+const langArrowClick = document.querySelector('#languages');
+const langMenu = document.querySelector('#lang-menu');
+
+langArrowClick.addEventListener('click', () => {
+  langArrowClick.classList.toggle('anti-rotate');
+  langMenu.classList.toggle('close-lang-menu');
+});
+
+// framework dropdown toggle
+
+const framework = document.querySelector('#framework');
+const frameworkMenu = document.querySelector('#framework-menu');
+
+framework.addEventListener('click', () => {
+  framework.classList.toggle('rotate');
+  frameworkMenu.classList.toggle('open-framework-dropdown');
+});
+
+// skills dropdown toggle
+
+const skills = document.querySelector('#skills');
+const skillsMenu = document.querySelector('#skills-menu');
+
+skills.addEventListener('click', () => {
+  skills.classList.toggle('rotate');
+  skillsMenu.classList.toggle('open-skills-dropdown');
+});
+

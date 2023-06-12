@@ -120,12 +120,15 @@
           </div>
         </div>
         <div class="base-about-myself">
-          <ul class="flex-icon">
-            <li><h4>Languages</h4></li>
-            <li class="icon">></li>
-          </ul>
+          <div class="flex-icon">
+            <button class="lang-button">
+              Languages
+            </button>
+            <i class="fa-solid fa-chevron-down" id="languages"></i>
+          </div>
 
-          <ul class="lang-bg">
+          <div id="lang-menu" class="lang-bg">
+          <ul class="flex-lang">
             <li class="flex item-center bg-languages">
               <a
                 ><img
@@ -155,22 +158,39 @@
               PostgreSQL
             </li>
           </ul>
-
-          <div>
-            <ul class="frame-works">
-              <li class="frameworks">
-                <p>Frameworks</p>
-                >
-              </li>
-              <hr />
-              <li class="skills">
-                <p>Skills</p>
-                >
-              </li>
-              <hr />
-            </ul>
           </div>
-        </div>
+
+          <div class="frame-works">
+              <button class="framework-button">
+                Frameworks/Libraries
+              </button>
+              <i class="fa-solid fa-chevron-right"  id="framework"></i>
+            </div>
+            <div class="framework-dropdown" id="framework-menu">
+              <ul class="framework-dropdown-ul">
+                <li class="framework-dropdown-li">React</li>
+                <li class="framework-dropdown-li">Redux</li>
+                <li class="framework-dropdown-li">Rails</li>
+                <li class="framework-dropdown-li">Sass</li>
+              </ul>
+            </div>
+              <hr />
+              <div class="skills">
+              <button class="skills-button" >Skills</button>
+              <i id="skills"class="fa-solid fa-chevron-right" id="skills-arrow"></i>
+              </div>
+            <div class="skills-dropdown" id="skills-menu">
+              <ul class="skills-dropdown-ul">
+                <li class="skills-dropdown-li">Web Developer</li>
+                <li class="skills-dropdown-li">Remote work</li>
+                <li class="skills-dropdown-li">Management</li>
+                <li class="skills-dropdown-li">Communication</li>
+                <li class="skills-dropdown-li">Good listener</li>
+                <li class="skills-dropdown-li">Team Player</li>
+              </ul>
+            </div>
+              <hr />
+          </div>
       </section>
 
       <section id="contact-me">
